@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    270099,       5470]
-NotebookOptionsPosition[    264750,       5367]
-NotebookOutlinePosition[    266184,       5408]
-CellTagsIndexPosition[    266141,       5405]
+NotebookDataLength[    270483,       5477]
+NotebookOptionsPosition[    265132,       5374]
+NotebookOutlinePosition[    266566,       5415]
+CellTagsIndexPosition[    266523,       5412]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5357,16 +5357,23 @@ Cell["Finding test data", "Subsubsection",
   3.770897630840907*^9}},ExpressionUUID->"5df8c373-1342-4d4e-a3f7-\
 fbb2d1ef3d7f"],
 
-Cell["I found an open source project that  ", "Text",
+Cell["\<\
+I found an open source project, OSRA: Optical Structure Recognition \
+Application, from the National Cancer Institute of the National Institutes of \
+Health for recognizing structures. It also linked to a set of 5719 images and \
+.MOL files of the corresponding structures. I downloaded it and will now \
+explore it.\
+\>", "Text",
  CellChangeTimes->{{3.770897632066286*^9, 3.770897634536503*^9}, {
-  3.7708989074229507`*^9, 
-  3.7708989129340467`*^9}},ExpressionUUID->"23584b41-7a10-4687-b76e-\
+  3.7708989074229507`*^9, 3.7708989129340467`*^9}, {3.770898974873622*^9, 
+  3.770899039561797*^9}, {3.770908024080781*^9, 
+  3.770908080930147*^9}},ExpressionUUID->"23584b41-7a10-4687-b76e-\
 705f29f41ebe"]
 }, Open  ]]
 }, Open  ]]
 },
 WindowToolbars->"RulerBar",
-WindowSize->{1147, 1005},
+WindowSize->{1059, 1005},
 WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 ShowCellLabel->True,
 CellLabelPositioning->Left,
@@ -5469,7 +5476,7 @@ Cell[CellGroupData[{
 Cell[264140, 5347, 154, 3, 81, "Subsection",ExpressionUUID->"8ad61d6d-d4b0-4342-a1ca-42fcf47b57d4"],
 Cell[CellGroupData[{
 Cell[264319, 5354, 168, 3, 67, "Subsubsection",ExpressionUUID->"5df8c373-1342-4d4e-a3f7-fbb2d1ef3d7f"],
-Cell[264490, 5359, 232, 4, 77, "Text",ExpressionUUID->"23584b41-7a10-4687-b76e-705f29f41ebe"]
+Cell[264490, 5359, 614, 11, 181, "Text",ExpressionUUID->"23584b41-7a10-4687-b76e-705f29f41ebe"]
 }, Open  ]]
 }, Open  ]]
 }
