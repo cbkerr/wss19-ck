@@ -40,6 +40,8 @@ lineDistance::usage="";
 doLineDetect::usage="";
 pickLongLines::usage="";
 doLongLineDetect::usage="";
+lineIntersectQ::usage="";
+lineToPointDelta::usage="";
 
 
 (* ::Text:: *)
@@ -58,6 +60,7 @@ visualizeLongLineDetect::usage="";
 gatherParallelLines::usage="";
 flattenLines::usage="";
 gatherNearbyLinesByCenter::usage="";
+gatherIntersectingLines::usage="";
 
 
 (* ::Text:: *)
@@ -97,7 +100,7 @@ Begin["`Private`"]
 (*Definition of the exported functions*)
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*Line Utilities*)
 
 
@@ -126,6 +129,24 @@ Clear[lineDistance]
 lineDistance[Line[points_?MatrixQ]]:=Total[EuclideanDistance@@@Partition[N[points],2,1]]
 lineDistance[Line[list_/;VectorQ[list,MatrixQ]]]:=lineDistance@*Line/@list
 lineDistance[lines:{__Line}]:=lineDistance/@lines
+
+
+(* ::Text:: *)
+(*To use Matthew's function*)
+
+
+Clear[lineToPointDelta]
+lineToPointDelta[l:Line[_?MatrixQ]]:={#,l[[1,2]]-#}&[l[[1,1]]]
+lineToPointDelta[l:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=lineToPointDelta/@l
+
+
+(* ::Text:: *)
+(*From Matthew Szudzik*)
+
+
+Clear[lineIntersectQ]
+lineIntersectQ[a:{Repeated[_?NumericQ,2]},b:{Repeated[_?NumericQ,2]},u:{Repeated[_?NumericQ,2]},v:{Repeated[_?NumericQ,2]}]:=Quiet[Reduce[Exists[{s,t},a+s*b==u+t*v&&0<=s<=1&&0<=t<=1]],Reduce::ratnz]
+lineIntersectQ[a:Line[_?MatrixQ],b:Line[_?MatrixQ]]:=Apply[lineIntersectQ,Catenate[Map[lineToPointDelta,{a,b}]]]
 
 
 (* ::Subsubsection:: *)
@@ -166,7 +187,42 @@ Clear[gatherNearbyLinesByCenter]
 gatherNearbyLinesByCenter[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]},tol_?NumericQ]:=
 Gather[lines,EuclideanDistance[Mean[First[#1]],Mean[First[#2]]]<tol&]
 
-gatherNearbyLines[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=gatherNearbyLines[lines,10]
+gatherNearbyLinesByCenter[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=gatherNearbyLinesByCenter[lines,10]
+
+
+(* ::Text:: *)
+(*Gather lines by intersecting. *)
+
+
+Clear[gatherIntersectingLines]
+gatherIntersectingLines[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=
+Block[{s2,s3,s5,s6,s7,s8},
+s2=Subsets[lines,{2}];
+s3=Apply[lineIntersectQ,s2,{1}];
+s5=Transpose[{s2,s3}];
+s6=Select[s5,#[[2]]&];
+s7=Transpose[s6][[1]];
+s8=Gather[s7,IntersectingQ[Part[#1],Part[#2]]&];
+Return[s8]
+]
+
+
+(* ::Text:: *)
+(*old:*)
+
+
+(*Clear[gatherIntersectingLines]
+gatherIntersectingLines[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=
+Block[{s2,s3,s4,s5,s6,s7,s8},
+s2=Subsets[#,{2}]&/@{lines};
+s3=Map[Apply[lineIntersectQ],s2,{2}];
+s4=Partition[Riffle[s2,s3],2];
+s5=Transpose[#]&/@s4;
+s6=Select[#,#[[2]]&]&/@s5;
+s7=Transpose[#][[1]]&/@s6;
+s8=Gather[#,IntersectingQ[Part[#1],Part[#2]]&]&/@s7;
+Return[s8]
+]*)
 
 
 (* ::Subsubsection:: *)
