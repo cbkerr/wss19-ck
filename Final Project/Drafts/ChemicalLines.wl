@@ -4,6 +4,10 @@
 (*Header*)
 
 
+(* ::Text:: *)
+(*TODO: update default values for some of the grouping functions: findVertices, gatherParallelLines, *)
+
+
 (* ::Section:: *)
 (*Set up the package context, including any imports*)
 
@@ -16,13 +20,58 @@ BeginPackage["ChemicalRead`"]
 
 
 (* ::Text:: *)
-(*Find a prefix for my package*)
+(*Package*)
 
 
-listPointsSlope::usage="use me"
+(* ::Text:: *)
+(*TODO : Find a prefix for naming functions*)
 
 
-CLListPointsSlope::usage="blah"
+ChemicalRead::usage="ChemicalRead is a package for scanning chemical structures."
+
+
+(* ::Text:: *)
+(*Line Operations*)
+
+
+listPointsSlope::usage="";
+lineSlope::usage="";
+lineDistance::usage="";
+doLineDetect::usage="";
+pickLongLines::usage="";
+doLongLineDetect::usage="";
+
+
+(* ::Text:: *)
+(*Visualization*)
+
+
+visualizeLineDetect::usage="";
+showLines::usage="";
+visualizeLongLineDetect::usage="";
+
+
+(* ::Text:: *)
+(*Line Grouping*)
+
+
+gatherParallelLines::usage="";
+flattenLines::usage="";
+gatherNearbyLinesByCenter::usage="";
+
+
+(* ::Text:: *)
+(*Vertices*)
+
+
+findVertices::usage="";
+
+
+(* ::Text:: *)
+(*Text Recognition*)
+
+
+testTextRecognize::usage="";
 
 
 (* ::Subsection:: *)
@@ -79,8 +128,8 @@ lineDistance[Line[list_/;VectorQ[list,MatrixQ]]]:=lineDistance@*Line/@list
 lineDistance[lines:{__Line}]:=lineDistance/@lines
 
 
-(* ::Subsubsection::Closed:: *)
-(*Groups of Lines*)
+(* ::Subsubsection:: *)
+(*Line Grouping*)
 
 
 Clear[flattenLines]
@@ -92,7 +141,51 @@ flattenLines[x:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=x
 (*flattenLines[List[x___Line]]:=flattenLines*)
 
 
-(* ::Subsubsection::Closed:: *)
+Clear[gatherParallelLines]
+(*Only works on line segments*)
+(*I won't make it automatically flatten lines because that's a different function.*)
+
+gatherParallelLines[x:{Repeated[Line[_?MatrixQ],{1,Infinity}]},tol_?NumericQ]:=
+Block[{combo,grouped},
+combo=Transpose[{x,Flatten@*lineSlope@x}/.Indeterminate->99999999999999];
+grouped=Gather[combo,Abs[#2[[2]]-#1[[2]]]<tol&];
+Return[Transpose[#][[1]]&/@grouped]
+]
+
+(*default tolerance*)
+gatherParallelLines[x:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=gatherParallelLines[x,0.01];
+
+
+
+
+(* ::Text:: *)
+(*Gather lines by proximity. Takes a list of lines*)
+
+
+Clear[gatherNearbyLinesByCenter]
+gatherNearbyLinesByCenter[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]},tol_?NumericQ]:=
+Gather[lines,EuclideanDistance[Mean[First[#1]],Mean[First[#2]]]<tol&]
+
+gatherNearbyLines[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=gatherNearbyLines[lines,10]
+
+
+(* ::Subsubsection:: *)
+(*Find vertices*)
+
+
+Clear[findVertices]
+
+findVertices[lines:{Repeated[Line[_?MatrixQ],{2,Infinity}]},tol_?NumericQ]:=
+Mean/@Select[Gather[Flatten[First/@lines,1],EuclideanDistance[#1,#2]<tol&],Length[#]>=2&]
+
+findVertices[lines:{Repeated[Line[_?MatrixQ],{2,Infinity}]}]:=findVertices[lines,3]
+
+
+(* ::Text:: *)
+(*Gather lines by combination of similar slope and nearby centers along the direction of the ?*)
+
+
+(* ::Subsubsection:: *)
 (*Line Detection*)
 
 
@@ -119,7 +212,7 @@ Return[longLines]
 ]
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*Text Recognize*)
 
 
@@ -131,17 +224,24 @@ HighlightImage[image,{"Boundary",res}]
 ]
 
 
-(* ::Subsubsection::Closed:: *)
-(*Visualization*)
-
-
-Clear[visualizeLineDetect]
-visualizeLineDetect[image_,tVals_,dVals_]:=With[{i=ColorNegate[image]},TableForm[Table[HighlightImage[image,{Red,ImageLines[i,t,d,Method->{"Segmented"->True}]}],{t,#1},{d,#2}],TableDirections->Row,TableHeadings->{"t = "<>ToString[#]&/@#1,"d="<>ToString[#]&/@#2}]]&[tVals,dVals]
-visualizeLineDetect[image_,tVals_,dVals_]:=visualizeLineDetect[image,{tVals},{dVals}]
+(* ::Subsubsection:: *)
+(*Shortcut Display Images*)
 
 
 Clear[showLines]
 showLines[image_Image,lines_:{__Line}]:=HighlightImage[image,{RandomColor[],#}&/@lines]
+
+
+(* ::Subsubsection::Closed:: *)
+(*Specific Visualization to find parameters*)
+
+
+Clear[visualizeLineDetect]
+visualizeLineDetect[image_,tVals_,dVals_]:=
+With[{i=ColorNegate[image]}
+,TableForm[Table[
+HighlightImage[image,{Red,ImageLines[i,t,d,Method->{"Segmented"->True}]}],{t,#1},{d,#2}],TableDirections->Row,TableHeadings->{"t = "<>ToString[#]&/@#1,"d="<>ToString[#]&/@#2}]]&[tVals,dVals]
+visualizeLineDetect[image_,tVals_,dVals_]:=visualizeLineDetect[image,{tVals},{dVals}]
 
 
 Clear[visualizeLongLineDetect]
@@ -161,25 +261,6 @@ visualizeLongLineDetect[image_Image,tVal_?NumericQ,dVal_List,lCutoff_?NumericQ]:
 visualizeLongLineDetect[image,{tVal},{dVal},lCutoff]
 visualizeLongLineDetect[image_Image,tVal_?NumericQ,dVal_?NumericQ,lCutoff_?NumericQ]:=
 visualizeLongLineDetect[image,{tVal},{dVal},lCutoff]
-
-
-(* ::Subsubsection::Closed:: *)
-(*Parallel lines*)
-
-
-Clear[gatherParallelLines]
-(*Only works on line segments*)
-(*I won't make it automatically flatten lines because that's a different function.*)
-
-(*default tolerance*)
-gatherParallelLines[x:{Repeated[Line[_?MatrixQ],{2,Infinity}]}]:=gatherParallelLines[x,0.01];
-
-gatherParallelLines[x:{Repeated[Line[_?MatrixQ],{2,Infinity}]},tol_?NumericQ]:=
-Block[{combo,grouped},
-combo=Transpose[{x,Flatten@*lineSlope@x}/.Indeterminate->99999999999999];
-grouped=Gather[combo,Abs[#2[[2]]-#1[[2]]]<tol&];
-Return[Transpose[#][[1]]&/@grouped]
-]
 
 
 (* ::Subsection:: *)
