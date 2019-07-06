@@ -61,6 +61,7 @@ gatherParallelLines::usage="";
 flattenLines::usage="";
 gatherNearbyLinesByCenter::usage="";
 gatherIntersectingLines::usage="";
+mergeLines::usage="";
 
 
 (* ::Text:: *)
@@ -111,15 +112,14 @@ listPointsSlope[p_?MatrixQ]:=
 Quiet[(#[[2,2]]-#[[1,2]])/(#[[2,1]]-#[[1,1]])&/@Partition[N[p],2,1],{Power::infy,Infinity::indet}]
 
 
-Clear[listPointsSlope]
+Clear[lineAngle]
 
-listPointsSlope[p_?MatrixQ]:=
-Quiet[(#[[2,2]]-#[[1,2]])/(#[[2,1]]-#[[1,1]])&/@Partition[N[p],2,1],{Power::infy,Infinity::indet}]
+lineAngle[Line[p_?MatrixQ]]:=p
 
 
 Clear[lineSlope]
 
-lineSlope[Line[points_?MatrixQ]]:=listPointsSlope[points]
+lineSlope[Line[points_?MatrixQ]]:=listPointsSlope[Sort[points]]
 lineSlope[Line[list_/;VectorQ[list,MatrixQ]]]:=lineSlope@*Line/@list
 lineSlope[lines__:{__Line}]:=lineSlope/@lines
 
@@ -147,6 +147,7 @@ lineToPointDelta[l:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=lineToPointDelta/@
 Clear[lineIntersectQ]
 lineIntersectQ[a:{Repeated[_?NumericQ,2]},b:{Repeated[_?NumericQ,2]},u:{Repeated[_?NumericQ,2]},v:{Repeated[_?NumericQ,2]}]:=Quiet[Reduce[Exists[{s,t},a+s*b==u+t*v&&0<=s<=1&&0<=t<=1]],Reduce::ratnz]
 lineIntersectQ[a:Line[_?MatrixQ],b:Line[_?MatrixQ]]:=Apply[lineIntersectQ,Catenate[Map[lineToPointDelta,{a,b}]]]
+lineIntersectQ[{a:Line[_?MatrixQ],b:Line[_?MatrixQ]}]:=lineIntersectQ[a,b]
 
 
 (* ::Subsubsection:: *)
@@ -191,17 +192,23 @@ gatherNearbyLinesByCenter[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=gathe
 
 
 (* ::Text:: *)
-(*Gather lines by intersecting. *)
+(*Gather lines by intersecting. If the lines are not intersecting, it puts them in their own separate lists.*)
 
 
 Clear[gatherIntersectingLines]
-gatherIntersectingLines[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=
+gatherIntersectingLines[{line:Line[_?MatrixQ]}]:={{line}}
+
+gatherIntersectingLines[lines:{Repeated[Line[_?MatrixQ],{2,Infinity}]}]:=
 Block[{s2,s3,s5,s6,s7,s8},
 s2=Subsets[lines,{2}];
 s3=Apply[lineIntersectQ,s2,{1}];
-s5=Transpose[{s2,s3}];
+
+(*s5=Transpose[{s2,s3}];
 s6=Select[s5,#[[2]]&];
-s7=Transpose[s6][[1]];
+s7=Transpose[s6][[1]];*)
+
+s7=Pick[s2,s3];
+
 s8=Gather[s7,IntersectingQ[Part[#1],Part[#2]]&];
 Return[s8]
 ]
@@ -223,6 +230,16 @@ s7=Transpose[#][[1]]&/@s6;
 s8=Gather[#,IntersectingQ[Part[#1],Part[#2]]&]&/@s7;
 Return[s8]
 ]*)
+
+
+Clear[mergeLines]
+mergeLines[lines:{Repeated[Line[_?MatrixQ],{2,Infinity}]}]:=
+Block[{pts,subs,bigLine},
+pts=Flatten[First/@lines,1];
+subs=Subsets[pts,{2}];
+bigLine=MaximalBy[subs,Apply[EuclideanDistance]];
+Return[Apply[Line,bigLine]];
+]
 
 
 (* ::Subsubsection:: *)
