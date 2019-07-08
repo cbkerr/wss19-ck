@@ -42,6 +42,7 @@ pickLongLines::usage="";
 doLongLineDetect::usage="";
 lineIntersectQ::usage="";
 lineToPointDelta::usage="";
+lineAngle::usage="";
 
 
 (* ::Text:: *)
@@ -69,6 +70,7 @@ mergeLines::usage="";
 
 
 findVertices::usage="";
+traceConnections::usage="";
 
 
 (* ::Text:: *)
@@ -112,9 +114,17 @@ listPointsSlope[p_?MatrixQ]:=
 Quiet[(#[[2,2]]-#[[1,2]])/(#[[2,1]]-#[[1,1]])&/@Partition[N[p],2,1],{Power::infy,Infinity::indet}]
 
 
+(* ::Text:: *)
+(*We sort the points so the angle is take consistently*)
+
+
 Clear[lineAngle]
 
-lineAngle[Line[p_?MatrixQ]]:=p
+lineAngle[Line[p_?MatrixQ]]:=
+Block[{ps},
+ps=Sort[p];
+ArcTan[ps[[2,1]]-ps[[1,1]],ps[[2,2]]-ps[[1,2]]]
+]
 
 
 Clear[lineSlope]
@@ -196,21 +206,35 @@ gatherNearbyLinesByCenter[lines:{Repeated[Line[_?MatrixQ],{1,Infinity}]}]:=gathe
 
 
 Clear[gatherIntersectingLines]
-gatherIntersectingLines[{line:Line[_?MatrixQ]}]:={{line}}
+gatherIntersectingLines[{line:Line[_?MatrixQ]}]:={{{line}}}
 
 gatherIntersectingLines[lines:{Repeated[Line[_?MatrixQ],{2,Infinity}]}]:=
-Block[{s2,s3,s5,s6,s7,s8},
+Block[{s2,s3,s5,s6,s7,s8,s9,s3Group,notIntersecting},
 s2=Subsets[lines,{2}];
-s3=Apply[lineIntersectQ,s2,{1}];
+(*s3=Apply[lineIntersectQ,s2,{1}];*)
+
+s3Group=GroupBy[s2,lineIntersectQ];
+If[
+KeyExistsQ[s3Group,False]
+,notIntersecting=Complement[Flatten@s3Group[False],Flatten@Lookup[s3Group,True,{}]];
+,notIntersecting={};
+];
 
 (*s5=Transpose[{s2,s3}];
 s6=Select[s5,#[[2]]&];
 s7=Transpose[s6][[1]];*)
+(*s7=Pick[s2,s3];*);
 
-s7=Pick[s2,s3];
+s7=Lookup[s3Group,True,{}];
 
 s8=Gather[s7,IntersectingQ[Part[#1],Part[#2]]&];
-Return[s8]
+
+If[Dimensions[s8]=={0}
+,s9={Map[{#}&,notIntersecting]};
+,s9=Join[s8,{Map[{#}&,notIntersecting]},2];
+];
+
+Return[s9]
 ]
 
 
@@ -241,6 +265,11 @@ bigLine=MaximalBy[subs,Apply[EuclideanDistance]];
 Return[Apply[Line,bigLine]];
 ]
 
+mergeLines[{line:Line[_?MatrixQ]}]:={line}
+
+(*for the format of gathered intersecting lines*)
+mergeLines[l:{Repeated[{Repeated[Line[_?MatrixQ],{2,Infinity}]},{1,Infinity}]}]:=mergeLines[Union[Flatten[l]]]
+
 
 (* ::Subsubsection:: *)
 (*Find vertices*)
@@ -256,6 +285,24 @@ findVertices[lines:{Repeated[Line[_?MatrixQ],{2,Infinity}]}]:=findVertices[lines
 
 (* ::Text:: *)
 (*Gather lines by combination of similar slope and nearby centers along the direction of the ?*)
+
+
+(* ::Subsubsection:: *)
+(*Trace vertices*)
+
+
+Clear[traceConnections]
+
+traceConnections[p_Point,lineGroup:{Repeated[Line[_?MatrixQ],{2,Infinity}]},pointGroup:{Repeated[_Point,{1,Infinity}]},mergedParents_Association,vertexChildren_Association]:=
+Block[{pQP,pointIndex,otherPointIndex,otherPoints,otherMergedPoint,connectingIndices},
+pQP=mergedParents[p];
+pointIndex=Map[Position[lineGroup,#]&,pQP[[;;,1]]];
+otherPointIndex=Map[ReplacePart[#,{1,-1}->Mod[#,2]+1&@#[[1,-1]]]&,pointIndex];
+otherPoints=Map[Point@Part[lineGroup,Sequence@@Flatten@#]&,otherPointIndex];
+otherMergedPoint=vertexChildren/@otherPoints;
+connectingIndices=Position[pointGroup,#]&/@Flatten@otherMergedPoint;
+Return[Flatten@connectingIndices]
+]
 
 
 (* ::Subsubsection:: *)
