@@ -1,0 +1,7 @@
+* Lightning Talk
+** Problem: how do you digitize
+** Project: towards implementation in Wolfram Language
+** Visual
+* Community Post
+
+* Poster

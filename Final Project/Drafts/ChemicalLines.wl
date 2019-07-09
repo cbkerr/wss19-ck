@@ -297,8 +297,8 @@ traceConnections[p_Point,lineGroup:{Repeated[Line[_?MatrixQ],{2,Infinity}]},poin
 Block[{pQP,pointIndex,otherPointIndex,otherPoints,otherMergedPoint,connectingIndices},
 pQP=mergedParents[p];
 pointIndex=Map[Position[lineGroup,#]&,pQP[[;;,1]]];
-otherPointIndex=Map[ReplacePart[#,{1,-1}->Mod[#,2]+1&@#[[1,-1]]]&,pointIndex];
-otherPoints=Map[Point@Part[lineGroup,Sequence@@Flatten@#]&,otherPointIndex];
+otherPointIndex=Map[ReplacePart[#,{1,-1}->Mod[#,2]+1&@#[[1,-1]]]&,pointIndex,1];
+otherPoints=Flatten@Map[Point@Part[lineGroup,Sequence@@Flatten@#]&,otherPointIndex,{2}];
 otherMergedPoint=vertexChildren/@otherPoints;
 connectingIndices=Position[pointGroup,#]&/@Flatten@otherMergedPoint;
 Return[Flatten@connectingIndices]
@@ -352,7 +352,7 @@ Clear[showLines]
 showLines[image_Image,lines_:{__Line}]:=HighlightImage[image,{RandomColor[],#}&/@lines]
 
 
-(* ::Subsubsection::Closed:: *)
+(* ::Subsubsection:: *)
 (*Specific Visualization to find parameters*)
 
 
