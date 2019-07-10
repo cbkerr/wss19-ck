@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1173721,      23168]
-NotebookOptionsPosition[   1168493,      23070]
-NotebookOutlinePosition[   1168831,      23085]
-CellTagsIndexPosition[   1168788,      23082]
+NotebookDataLength[   1337768,      26614]
+NotebookOptionsPosition[   1332144,      26509]
+NotebookOutlinePosition[   1332481,      26524]
+CellTagsIndexPosition[   1332438,      26521]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -25,15 +25,2093 @@ Cell["Old", "Chapter",
   3.771671364040371*^9}},ExpressionUUID->"0b8ad430-223a-4a3c-bfa4-\
 4fb10cd46474"],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"extractedInfo", "=", 
   RowBox[{"ComponentMeasurements", "[", 
    RowBox[{
     RowBox[{"{", 
-     RowBox[{"comps", ",", 
+     RowBox[{
+      RowBox[{"MorphologicalComponents", "@", 
+       RowBox[{"ColorNegate", "@", "i"}]}], ",", 
       RowBox[{"ColorNegate", "@", "i"}]}], "}"}], ",", 
-    "\"\<MaskedImage\>\""}], "]"}]}]], "Input",ExpressionUUID->"bce2dabc-52bd-\
-4305-a1bf-6a2629be59ba"],
+    "\"\<MaskedImage\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{3.7716920855842037`*^9},
+ CellLabel->
+  "In[285]:=",ExpressionUUID->"bce2dabc-52bd-4305-a1bf-6a2629be59ba"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"1", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}, {0, 0, 0, 1, 1, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 
+        0, 1}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 1, 
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+         0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 1,
+         0, 0, 0, 0, 0, 1, 1, 0, 0, 0}, {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+        0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0}, {0, 0, 0, 1, 
+        1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1,
+         0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1,
+         1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 
+        0, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 
+        1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+         0, 0, 0, 0}}], {{0, 19}, {15, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{15, 19},
+     PlotRange->{{0, 15}, {0, 19}}]}], ",", 
+   RowBox[{"2", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJzt3c1uE0kUQGE3Kx4D3oItS7bhCYIU2IEUkBBvTxAysWK3XT/n3mqqz5Fm
+NBB3Xdc3rsRxJOftp293n18dDofvr5/+dXf/8/3j4/2vj3/+8OHrj4cvD4/v
+Pv358Jvl6aNP/6S1LJnT5m/52+i7MU3Lc6PvyhwdKSVlOnXUtL+Xhpp2dg44
+/afT0N1dxpudNM50XU7T1lXX19W0ZcWra/rptHq5mwvOToqaFmJpWr5O4Up7
+OPr926tD2oNp/wp1S8xO2mnaxKPptSubrt3D0W/aXgfL7KRNNp0oezCtvX0v
+yOymddvjnndperwlIjE7aaEpyrAH04KbkAS7P/oB29+1adDeZyddN43b+Oym
+l/cXuukdHv3wHe/NNGO3s5OeImZtdXbT4/4S97mLo5+8x9lJR2xwctHDgO0p
+OsHIzBSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5RO
+UTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5RO
+UTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5RO
+UTpF6RSlU5ROUbqdiOa9Me+Ydx0eMjJl6Kh3xh40MnzoqHdvzx2ZN/N0QOZv
+GBgwcrnw3zGT1v8408iXM2OGni+cciaSR16YEDTz8rLhR+LyyAlmri8Zt79B
+I9dnkkOvLhd3JgaMXF0WfSZ1a6mA/ZWMjJh5bU1sZslCAUcieWTxzO6hpYuQ
+Gxw0smAx4OiXL4CeieSReTPrrkb2Vz+SmVm+SsfM+kv79zdoZP3MhqFtl2We
+CWxk9eXNF9Ve03Nd58iemS3XVl/X8/+94z72jExxab229/N95pnoHNn7+aLo
+euLrZ/7Xlw1/TWOe41U/H2FGpjwHqlsFe85cvtKAkfC36FdWwgb9W426FToy
+7ftX1vNQdMcjRm5lJu55XLT9w80jU16Tu71mzOvi1+5/gGfByLDXqsN/pHgy
+bfVexI3czs9TgoaV/SU6chs/8wscdv0vQkaezwwdOvLopwxezmaGD00lPVFM
+G7vkzxxx9LNHLofUfaYf/dRj8Twyc+ioo585MnvogF2mNmB7ik4wMjNF6RSl
+U5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSl
+U5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSl
+U5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSl
+U5ROUTjfdZht0Dtj501LbtC7t+dMGtCpY+JvGMgYM6ZBvwUjesawzjeX8pta
+Itcf2qDfJhS29ujW5eJIp3+Atn0wZuT/3q3NRRz92T1v7Y4mnfkBWvr4Iw30
+rL3p7YWIdTZZ3eYY05lB6/fWrzG7Z/3m+kT0JC88zA/ac23LxXqy18/u2bu5
+6iUmBoWeVtYtM7EnuLe67w2YmduL3VvZauGvWg8M39uI11g2VMhj5daierYt
+nD50E8VtbZVtas/QLj8U9ezp3HTuA5/RC0A9gU4Q9WQ6HnQPPNdybPQdmSg9
+8fSkU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF
+6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF
+6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6TpEfwMOkRKr
+       "], {{0, 288}, {338, 
+       0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{338, 288},
+     PlotRange->{{0, 338}, {0, 288}}]}], ",", 
+   RowBox[{"3", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjRnIAIyM
+JGsgUQsjWTpor4EkHcPCE4PRTaOeoKGGIe+mEeoJMoplBgC4LAno
+       "], {{0, 30}, {51,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"4", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}}], {{0, 57}, {2, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{2, 57},
+     PlotRange->{{0, 2}, {0, 57}}]}], ",", 
+   RowBox[{"5", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYgZGR
+gUTACAJ000SqHrI0jXqJfItGAxyhZ9RLQ8F1w9BLpOoBagIAvY0J6A==
+       "], {{0, 
+       30}, {51, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"6", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYgZGR
+gUTACAJ000SqHrI0jXqJfItGAxyhZ9RLQ8F1w9BLpOoBagIAvY0J6A==
+       "], {{0, 
+       30}, {51, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"7", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYCYEQoY
+UNkQAQiAsQeXGDIYaLcQIYYtnAEMvgmr
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"8", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"9", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIBRlggBEM
+QAwoFyGKxIcIofAhbGQ+pgDQUFQ+pgC6DioJEFSC4XY0NYyoupBl4IHDAADW
+tgl8
+       "], {{0, 19}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 19},
+     PlotRange->{{0, 17}, {0, 19}}]}], ",", 
+   RowBox[{"10", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}}], {{0, 57}, {2, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{2, 57},
+     PlotRange->{{0, 2}, {0, 57}}]}], ",", 
+   RowBox[{"11", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0, 1, 1, 1, 1, 0, 0, 0}, {0, 1, 1, 1, 
+        1, 1, 1, 0, 0}, {1, 1, 0, 0, 0, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 1, 1, 
+        0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 
+        0, 0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 1, 
+        0, 0, 0}, {0, 0, 0, 0, 1, 0, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0, 0, 0}, {
+        0, 0, 1, 0, 0, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 
+        1, 1, 1, 1, 0}}], {{0, 14}, {9, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{9, 14},
+     PlotRange->{{0, 9}, {0, 14}}]}], ",", 
+   RowBox[{"12", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjRnIAIyM
+JGsgUQsjWTpor4EkHcPCE4PRTaOeoKGGIe+mEeoJMoplBgC4LAno
+       "], {{0, 30}, {51,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"13", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYCYEQoY
+UNkQAQiAsQeXGDIYaLcQIYYtnAEMvgmr
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"14", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"15", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYCYEQoY
+UNkQAQiAsQeXGDIYaLcQIYYtnAEMvgmr
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"16", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYGYEQQY
+YICREcZHFgXyEPLECjIgG4ugEaJIgghRVEFGTEEGrIIwUTRjIKIYgoyYggxY
+BcGiGIIgUUxBpGAgJAhzFyNa4AMxALUgCZc=
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"17", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhCI5YCYkZGR
+AR+gsTwjYXkaG09L59HYekYi5PEbDwC1cQmB
+       "], {{0, 17}, {30, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{30, 17},
+     PlotRange->{{0, 30}, {0, 17}}]}], ",", 
+   RowBox[{"18", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYGYEQQY
+YICREcZHFgXyEPLECjIgG4ugEaJIgghRVEFGTEEGrIIwUTRjIKIYgoyYggxY
+BcGiGIIgUUxBpGAgJAhzFyNa4AMxALUgCZc=
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"19", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJztm01u1EAQhW1WXIElt2DLkm04QSIFdiAFJMSFOQdxMpkZe/r5r+tVd7Xf
+JxE0Ar8qf+729PQ4Hx9+3n1713Xdr/fPP+7u/3x+err/+3V48eXH78fvj0+f
+HoZ//vf850Pf0en78d/ihMQAJAYgMQCJAUgMQGIAEgOQGIDEACQGIDEAiQFI
+DEBiABIDkBiAxAAkBiAxAIkBSAxAYgASA5AYgMQAJAYgMQCJAUgMQGIAEgOQ
+GIDEACQGIDEAiQFIDEBiABIDkBiAxAAkBiAxAIkBSAxAYgASA5AYgMQABiH9
+8w+JmfDi5IXSnVRGf6Z0J5VxUiIzE85CZOaakQ2pOTNRITOv3N5xZWYgaUFq
+kIJgZsybnVm4RFJjvv6azYtkxljNQlgoM4bdrkg6pJpVMfHM5La7OiOUmfwL
+uSGg+kEzbi+v3U1HV25mOvYz5tPmQw+iZsdhlZu56W9Xv/tOsnIz+Wp2X/sI
+gyZjPmWcXu1mcgZN5gKodjO71Xiufgqxaz5ZnFY0MytO2uhzuf2gsd5L2ajG
+rLrlafQXrCLfYqdVVv7f3Lo2KZeOrYdhYtAkCxhfk9y0xCghmFkxnyj3hd0H
+pqcO5dY195qwUXwK3XPMTC/2TS7cakhrj+0L7qULxL98owZ4a7INq8rV66zs
+phLFk68p0whVTf+PDR0wek3PJ6aWU5m5hjZfFtakn7ykDpdk0XHpXbs++T2l
+UtetaoxrJq/H/ndzi64SsR533Zuil4LZF4PV9LhLSolUzd5EyluaQU8zwY7b
+A7Z3M94FfU12GzDm14BsJq4YZutDdFwx1Ivqe/MNEOkUPi4UI9MnnF2ngSHD
+KUO+zdCyR2VIsUwztGiHKuQ3bTrshWqs5FERYjTPDCnYqQbxAyUnd1SCu+KI
+d2c/lyDHs8xQYh0rRBXDH5Muu8CMAtx84i4wI9Uvv+N95CCEXsdHXULSv3Bj
+pl+qRNvY8NrZ4Hx1ax55Ha5NQhDOy55WIpixTvTJvillv+NuHHgd7SeG8VWE
+caBLtEc15kYYKzldzfx7Pdu8q2BXMeb1Qm+DTQrGMOMuxtpM3F0wcs2oez3p
+ovWbKSLG1kxLYkzNhPtyeaFwnVnMTPfCEuOQdY5sQUwXbANsvrJpWKhtHsfC
+oZ6rXKpsG2ea1sxMYjyjbJtXrHCYp9qXK1sH2qa1MpOqv5mXK2z8cb0dMaZj
+sKGZ1IiYcldkFU3NJEuamkmWaMCk0UwCFJxJElNX4XVoJgE0kwAaMGk0kwCa
+SYBjDJh+D479jXt1LRbGS/0zqYHv8imUMlO9mFJm6hdTxkwAL6UeS3QvuYMC
+ZmKIKWAmiJgCj8u7lsvA2UwcMdF/J4eH65AJ5MXXTCgxnmZiifH87WKfOmZ4
+mQknxstMPDE+ZgJ68TETUoyHmZhi+G0H9cIfMlHF0M2EFUM2U/Abm2yovQf2
+wjUTWgzRTOSZNEDrP7gXnpnwYkhmos+kAZIYQqgzlIvbghiGmRZmUsc4jTa8
+EMy0IsbaTCMzacDuVMo+8WePxcnU8CykPZknMzYiM6cDb0ZJY2b2HAOmTktm
+Np7Lwu3kkGZW3WKPZmb9+85xzGx9Lz6EmV3rk8bNZCzaGhIzMZO5kG1pyJxP
+xmRx35oZu0887ZkxDLOKagyZQcgMQmYQMoOQGYTEADRkEDKDkBmEzCBkBiEz
+CJlByAxCZhASA9CQQcgMQmYQMoOQGYTMIGQGITMIiUH0/wHjbhFd
+       "], {{0, 230}, {
+       281, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{281, 230},
+     PlotRange->{{0, 281}, {0, 230}}]}], ",", 
+   RowBox[{"20", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"21", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhuINYCYkZGB
+ODCqkCoKGYlXSGWbR6ZCEsJ7NAbxqRuZColTNxredFcIAISYCdA=
+       "], {{0, 43}, {40,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{40, 43},
+     PlotRange->{{0, 40}, {0, 43}}]}], ",", 
+   RowBox[{"22", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJI2hyIhRmwAEZG
+8oQYsQkNI32DwAmjXqa5vkHghEGgDwBNCAnf
+       "], {{0, 55}, {19, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{19, 55},
+     PlotRange->{{0, 19}, {0, 55}}]}], ",", 
+   RowBox[{"23", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYGYEQQY
+YICREcZHFgXyEPLECjIgG4ugEaJIgghRVEFGTEEGrIIwUTRjIKIYgoyYggxY
+BcGiGIIgUUxBpGAgJAhzFyNa4AMxALUgCZc=
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"24", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJztm0GO1DAQRdusuAa3YMuS7XCCGWlgB1KDhDgZd+BUzCgODHS6E9tV/3+X
+qqQZqbuT+n6psmNXnDcPX+4+vjqdTl9fP/27u//+7ny+//Hh+cP7z98ePz2e
+3z48//zz6e/XKY6Vwm6BkZVAJOwWGFmGRM7ChCQMSOaWngUCCUISBiRzS88C
+gcQhYbfAyMKEJAxI5paeBQIJQkIGKcWsAQIgNjTckKzqFjQSIOuHERpqSC7F
+B2C0QOq3PTTMkNzQbqcRBVl/b6ARBqnHHIQhhuSw9DGaCUDWo2/T8ELSNzZd
+pZkKpJ62DTMbyHruBQ0tJMPC/9NMC1Kd/KFhhcRO13BB0Clv7C4GiJNLliqD
+xOfyEUic8gCfXm6KaBK/SwcmccwBLIlnMkM7iq8YkMT5quFIvMMPI3HP4xtr
+SetZnqW7bYkrwqZzZcTIslsDNFoTjTvZF9lpggENaKw/UBAbhEHdtI4WKrtp
+YHffxopmc7Nw04gWoQ4a5HyoUaoNBjyx6zjlIA12KTdUn90dxPva1Gf9cns0
+8MX1kN4NGEaVYNjBFg2hmmZZbX5ZPKcU04zcvKChgFgut0q5jA7QjFVpHB5L
+4FAo1h5ZupFIWE+ZZnBJ0k0SPd3sKIK6SaKny5uw2HsMFBRrjyzdHIcFdZNE
+Tzc7iqBukujp5oRFUDcSSY7Do7r2HgOll7VHlm52lHFde4+B0svaI0s3O8qw
+ahASl0zgPJX3EKXslPCRJGxecVLE7yfyEpxmj9cR326ut8Qc1bA7IT3FoJtT
+XbWQG4adlXB7uL2FYNvq3XUwJIgkhnQUTG+McrUQJLhXXNxHR9xA7+wedvON
+cut1JgG/4uI51QavGvw8Y1dyUdZxfiSMV1xcFBkVzigVKB+S6V9x+euSVXI2
+VuY9BTB+VYj8OMOORuG5jAmMAkhtxxiNCkj9sp9GCmT5oQ9GDqT+2kyjCbIc
+0USjC1IPO0ojDrIcegRmApB6/A7NLCD1pOs0U4EsJ27DTAdSz76gmRNk8fAP
+zbwg1U0p15INY4ayYUCqvyAgNEsQNUsQNUsQNUsQNUsQNUsQNUsQNUsQNUsQ
+NUsQNUsQNUsQNUsQNUsQrP0GkL8PLA==
+       "], {{0, 183}, {202, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{202, 183},
+     PlotRange->{{0, 202}, {0, 183}}]}], ",", 
+   RowBox[{"25", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJImheILRnIA4wg
+QI4eEjUyUqZp8OkZIo4jRw+tHQfXSKIeMAAAzBEJ1A==
+       "], {{0, 13}, {57, 0}}, {
+       0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{57, 13},
+     PlotRange->{{0, 57}, {0, 13}}]}], ",", 
+   RowBox[{"26", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWgCILYCYgREI
+GEgHjDBAgV4ytA6U3iHoZIaR5eQB9i45WkF6AaCgCdI=
+       "], {{0, 16}, {56, 0}}, {
+       0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{56, 16},
+     PlotRange->{{0, 56}, {0, 16}}]}], ",", 
+   RowBox[{"27", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIBRlggBEM
+QAwoFyGKxIcIofAhbGQ+pgDQUFQ+pgC6DioJEFSC4XY0NYyoupBl4IHDAADW
+tgl8
+       "], {{0, 19}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 19},
+     PlotRange->{{0, 17}, {0, 19}}]}], ",", 
+   RowBox[{"28", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"29", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIpYCYEQQY
+0ABMEJsMXAWGFoIyaOYh+PhkUKSQuHhlkKSQefhlyOJAechswjJgLhKTKBmk
+kCUgw8iIiFWY9RAAAFZtCcE=
+       "], {{0, 19}, {26, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{26, 19},
+     PlotRange->{{0, 26}, {0, 19}}]}], ",", 
+   RowBox[{"30", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJI2hyIBYGYkZGR
+ARUQI0COnsFjyKjrR10/xFwPACLzCds=
+       "], {{0, 55}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 55},
+     PlotRange->{{0, 17}, {0, 55}}]}], ",", 
+   RowBox[{"31", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0}, {0, 0, 
+        1, 0, 0, 0, 0, 1, 1, 1, 0}, {0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 1, 
+        0, 0, 0, 0, 0, 0, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 
+        0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 
+        0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 1, 
+        1, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0}, {0, 0, 
+        1, 1, 1, 1, 1, 1, 1, 1, 0}, {0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0}}], {{0, 
+       13}, {11, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{11, 13},
+     PlotRange->{{0, 11}, {0, 13}}]}], ",", 
+   RowBox[{"32", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0, 1, 1, 1, 1, 0, 0, 0}, {0, 1, 1, 1, 
+        1, 1, 1, 0, 0}, {1, 1, 0, 0, 0, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 1, 1, 
+        0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 
+        0, 0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 1, 
+        0, 0, 0}, {0, 0, 0, 0, 1, 0, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0, 0, 0}, {
+        0, 0, 1, 0, 0, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 
+        1, 1, 1, 1, 0}}], {{0, 14}, {9, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{9, 14},
+     PlotRange->{{0, 9}, {0, 14}}]}], ",", 
+   RowBox[{"33", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhOItRiIB4xE
+K2QkUumowlGFowpHFY4qHFVIhkIGAOUlCeI=
+       "], {{0, 41}, {42, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", 
+           "ImageDescription" -> "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{42, 41},
+     PlotRange->{{0, 42}, {0, 41}}]}]}], "}"}]], "Output",
+ CellChangeTimes->{3.771692087863228*^9},
+ CellLabel->
+  "Out[285]=",ExpressionUUID->"6e17512f-a678-4763-9dfd-dcd2828f48cb"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Normal", "@", 
+  RowBox[{"extractedInfo", "[", 
+   RowBox[{"All", ",", "\"\<MaskedImage\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.771692093073393*^9, 3.771692143028887*^9}, {
+  3.7716922100066347`*^9, 3.77169225716185*^9}},
+ CellLabel->
+  "In[307]:=",ExpressionUUID->"a4549ee9-aace-4c7d-8678-4236c4dec30e"],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"1", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+         1}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1}, {0, 0, 0, 1, 1, 0,
+         0, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 
+        0, 1}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 1, 
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0,
+         0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 1,
+         0, 0, 0, 0, 0, 1, 1, 0, 0, 0}, {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+        0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0}, {0, 0, 0, 1, 
+        1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1,
+         0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1,
+         1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 
+        0, 0, 0, 0}, {0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 
+        1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0,
+         0, 0, 0, 0}}], {{0, 19}, {15, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{15, 19},
+     PlotRange->{{0, 15}, {0, 19}}]}], ",", 
+   RowBox[{"2", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJzt3c1uE0kUQGE3Kx4D3oItS7bhCYIU2IEUkBBvTxAysWK3XT/n3mqqz5Fm
+NBB3Xdc3rsRxJOftp293n18dDofvr5/+dXf/8/3j4/2vj3/+8OHrj4cvD4/v
+Pv358Jvl6aNP/6S1LJnT5m/52+i7MU3Lc6PvyhwdKSVlOnXUtL+Xhpp2dg44
+/afT0N1dxpudNM50XU7T1lXX19W0ZcWra/rptHq5mwvOToqaFmJpWr5O4Up7
+OPr926tD2oNp/wp1S8xO2mnaxKPptSubrt3D0W/aXgfL7KRNNp0oezCtvX0v
+yOymddvjnndperwlIjE7aaEpyrAH04KbkAS7P/oB29+1adDeZyddN43b+Oym
+l/cXuukdHv3wHe/NNGO3s5OeImZtdXbT4/4S97mLo5+8x9lJR2xwctHDgO0p
+OsHIzBSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5RO
+UTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5RO
+UTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5RO
+UTpF6RSlU5ROUbqdiOa9Me+Ydx0eMjJl6Kh3xh40MnzoqHdvzx2ZN/N0QOZv
+GBgwcrnw3zGT1v8408iXM2OGni+cciaSR16YEDTz8rLhR+LyyAlmri8Zt79B
+I9dnkkOvLhd3JgaMXF0WfSZ1a6mA/ZWMjJh5bU1sZslCAUcieWTxzO6hpYuQ
+Gxw0smAx4OiXL4CeieSReTPrrkb2Vz+SmVm+SsfM+kv79zdoZP3MhqFtl2We
+CWxk9eXNF9Ve03Nd58iemS3XVl/X8/+94z72jExxab229/N95pnoHNn7+aLo
+euLrZ/7Xlw1/TWOe41U/H2FGpjwHqlsFe85cvtKAkfC36FdWwgb9W426FToy
+7ftX1vNQdMcjRm5lJu55XLT9w80jU16Tu71mzOvi1+5/gGfByLDXqsN/pHgy
+bfVexI3czs9TgoaV/SU6chs/8wscdv0vQkaezwwdOvLopwxezmaGD00lPVFM
+G7vkzxxx9LNHLofUfaYf/dRj8Twyc+ioo585MnvogF2mNmB7ik4wMjNF6RSl
+U5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSl
+U5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSl
+U5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSl
+U5ROUTjfdZht0Dtj501LbtC7t+dMGtCpY+JvGMgYM6ZBvwUjesawzjeX8pta
+Itcf2qDfJhS29ujW5eJIp3+Atn0wZuT/3q3NRRz92T1v7Y4mnfkBWvr4Iw30
+rL3p7YWIdTZZ3eYY05lB6/fWrzG7Z/3m+kT0JC88zA/ac23LxXqy18/u2bu5
+6iUmBoWeVtYtM7EnuLe67w2YmduL3VvZauGvWg8M39uI11g2VMhj5daierYt
+nD50E8VtbZVtas/QLj8U9ezp3HTuA5/RC0A9gU4Q9WQ6HnQPPNdybPQdmSg9
+8fSkU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF
+6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF
+6RSlU5ROUTpF6RSlU5ROUTpF6RSlU5ROUTpF6TpEfwMOkRKr
+       "], {{0, 288}, {338, 
+       0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{338, 288},
+     PlotRange->{{0, 338}, {0, 288}}]}], ",", 
+   RowBox[{"3", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjRnIAIyM
+JGsgUQsjWTpor4EkHcPCE4PRTaOeoKGGIe+mEeoJMoplBgC4LAno
+       "], {{0, 30}, {51,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"4", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}}], {{0, 57}, {2, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{2, 57},
+     PlotRange->{{0, 2}, {0, 57}}]}], ",", 
+   RowBox[{"5", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYgZGR
+gUTACAJ000SqHrI0jXqJfItGAxyhZ9RLQ8F1w9BLpOoBagIAvY0J6A==
+       "], {{0, 
+       30}, {51, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"6", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYgZGR
+gUTACAJ000SqHrI0jXqJfItGAxyhZ9RLQ8F1w9BLpOoBagIAvY0J6A==
+       "], {{0, 
+       30}, {51, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"7", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYCYEQoY
+UNkQAQiAsQeXGDIYaLcQIYYtnAEMvgmr
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"8", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"9", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIBRlggBEM
+QAwoFyGKxIcIofAhbGQ+pgDQUFQ+pgC6DioJEFSC4XY0NYyoupBl4IHDAADW
+tgl8
+       "], {{0, 19}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 19},
+     PlotRange->{{0, 17}, {0, 19}}]}], ",", 
+   RowBox[{"10", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 
+        1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1}, {
+        1, 1}}], {{0, 57}, {2, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{2, 57},
+     PlotRange->{{0, 2}, {0, 57}}]}], ",", 
+   RowBox[{"11", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0, 1, 1, 1, 1, 0, 0, 0}, {0, 1, 1, 1, 
+        1, 1, 1, 0, 0}, {1, 1, 0, 0, 0, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 1, 1, 
+        0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 
+        0, 0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 1, 
+        0, 0, 0}, {0, 0, 0, 0, 1, 0, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0, 0, 0}, {
+        0, 0, 1, 0, 0, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 
+        1, 1, 1, 1, 0}}], {{0, 14}, {9, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{9, 14},
+     PlotRange->{{0, 9}, {0, 14}}]}], ",", 
+   RowBox[{"12", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjRnIAIyM
+JGsgUQsjWTpor4EkHcPCE4PRTaOeoKGGIe+mEeoJMoplBgC4LAno
+       "], {{0, 30}, {51,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"13", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYCYEQoY
+UNkQAQiAsQeXGDIYaLcQIYYtnAEMvgmr
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"14", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"15", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYCYEQoY
+UNkQAQiAsQeXGDIYaLcQIYYtnAEMvgmr
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"16", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYGYEQQY
+YICREcZHFgXyEPLECjIgG4ugEaJIgghRVEFGTEEGrIIwUTRjIKIYgoyYggxY
+BcGiGIIgUUxBpGAgJAhzFyNa4AMxALUgCZc=
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"17", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhCI5YCYkZGR
+AR+gsTwjYXkaG09L59HYekYi5PEbDwC1cQmB
+       "], {{0, 17}, {30, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{30, 17},
+     PlotRange->{{0, 30}, {0, 17}}]}], ",", 
+   RowBox[{"18", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYGYEQQY
+YICREcZHFgXyEPLECjIgG4ugEaJIgghRVEFGTEEGrIIwUTRjIKIYgoyYggxY
+BcGiGIIgUUxBpGAgJAhzFyNa4AMxALUgCZc=
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"19", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJztm01u1EAQhW1WXIElt2DLkm04QSIFdiAFJMSFOQdxMpkZe/r5r+tVd7Xf
+JxE0Ar8qf+729PQ4Hx9+3n1713Xdr/fPP+7u/3x+err/+3V48eXH78fvj0+f
+HoZ//vf850Pf0en78d/ihMQAJAYgMQCJAUgMQGIAEgOQGIDEACQGIDEAiQFI
+DEBiABIDkBiAxAAkBiAxAIkBSAxAYgASA5AYgMQAJAYgMQCJAUgMQGIAEgOQ
+GIDEACQGIDEAiQFIDEBiABIDkBiAxAAkBiAxAIkBSAxAYgASA5AYgMQABiH9
+8w+JmfDi5IXSnVRGf6Z0J5VxUiIzE85CZOaakQ2pOTNRITOv3N5xZWYgaUFq
+kIJgZsybnVm4RFJjvv6azYtkxljNQlgoM4bdrkg6pJpVMfHM5La7OiOUmfwL
+uSGg+kEzbi+v3U1HV25mOvYz5tPmQw+iZsdhlZu56W9Xv/tOsnIz+Wp2X/sI
+gyZjPmWcXu1mcgZN5gKodjO71Xiufgqxaz5ZnFY0MytO2uhzuf2gsd5L2ajG
+rLrlafQXrCLfYqdVVv7f3Lo2KZeOrYdhYtAkCxhfk9y0xCghmFkxnyj3hd0H
+pqcO5dY195qwUXwK3XPMTC/2TS7cakhrj+0L7qULxL98owZ4a7INq8rV66zs
+phLFk68p0whVTf+PDR0wek3PJ6aWU5m5hjZfFtakn7ykDpdk0XHpXbs++T2l
+UtetaoxrJq/H/ndzi64SsR533Zuil4LZF4PV9LhLSolUzd5EyluaQU8zwY7b
+A7Z3M94FfU12GzDm14BsJq4YZutDdFwx1Ivqe/MNEOkUPi4UI9MnnF2ngSHD
+KUO+zdCyR2VIsUwztGiHKuQ3bTrshWqs5FERYjTPDCnYqQbxAyUnd1SCu+KI
+d2c/lyDHs8xQYh0rRBXDH5Muu8CMAtx84i4wI9Uvv+N95CCEXsdHXULSv3Bj
+pl+qRNvY8NrZ4Hx1ax55Ha5NQhDOy55WIpixTvTJvillv+NuHHgd7SeG8VWE
+caBLtEc15kYYKzldzfx7Pdu8q2BXMeb1Qm+DTQrGMOMuxtpM3F0wcs2oez3p
+ovWbKSLG1kxLYkzNhPtyeaFwnVnMTPfCEuOQdY5sQUwXbANsvrJpWKhtHsfC
+oZ6rXKpsG2ea1sxMYjyjbJtXrHCYp9qXK1sH2qa1MpOqv5mXK2z8cb0dMaZj
+sKGZ1IiYcldkFU3NJEuamkmWaMCk0UwCFJxJElNX4XVoJgE0kwAaMGk0kwCa
+SYBjDJh+D479jXt1LRbGS/0zqYHv8imUMlO9mFJm6hdTxkwAL6UeS3QvuYMC
+ZmKIKWAmiJgCj8u7lsvA2UwcMdF/J4eH65AJ5MXXTCgxnmZiifH87WKfOmZ4
+mQknxstMPDE+ZgJ68TETUoyHmZhi+G0H9cIfMlHF0M2EFUM2U/Abm2yovQf2
+wjUTWgzRTOSZNEDrP7gXnpnwYkhmos+kAZIYQqgzlIvbghiGmRZmUsc4jTa8
+EMy0IsbaTCMzacDuVMo+8WePxcnU8CykPZknMzYiM6cDb0ZJY2b2HAOmTktm
+Np7Lwu3kkGZW3WKPZmb9+85xzGx9Lz6EmV3rk8bNZCzaGhIzMZO5kG1pyJxP
+xmRx35oZu0887ZkxDLOKagyZQcgMQmYQMoOQGYTEADRkEDKDkBmEzCBkBiEz
+CJlByAxCZhASA9CQQcgMQmYQMoOQGYTMIGQGITMIiUH0/wHjbhFd
+       "], {{0, 230}, {
+       281, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{281, 230},
+     PlotRange->{{0, 281}, {0, 230}}]}], ",", 
+   RowBox[{"20", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"21", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhuINYCYkZGB
+ODCqkCoKGYlXSGWbR6ZCEsJ7NAbxqRuZColTNxredFcIAISYCdA=
+       "], {{0, 43}, {40,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{40, 43},
+     PlotRange->{{0, 40}, {0, 43}}]}], ",", 
+   RowBox[{"22", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJI2hyIhRmwAEZG
+8oQYsQkNI32DwAmjXqa5vkHghEGgDwBNCAnf
+       "], {{0, 55}, {19, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{19, 55},
+     PlotRange->{{0, 19}, {0, 55}}]}], ",", 
+   RowBox[{"23", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRYGYEQQY
+YICREcZHFgXyEPLECjIgG4ugEaJIgghRVEFGTEEGrIIwUTRjIKIYgoyYggxY
+BcGiGIIgUUxBpGAgJAhzFyNa4AMxALUgCZc=
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"24", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJztm0GO1DAQRdusuAa3YMuS7XCCGWlgB1KDhDgZd+BUzCgODHS6E9tV/3+X
+qqQZqbuT+n6psmNXnDcPX+4+vjqdTl9fP/27u//+7ny+//Hh+cP7z98ePz2e
+3z48//zz6e/XKY6Vwm6BkZVAJOwWGFmGRM7ChCQMSOaWngUCCUISBiRzS88C
+gcQhYbfAyMKEJAxI5paeBQIJQkIGKcWsAQIgNjTckKzqFjQSIOuHERpqSC7F
+B2C0QOq3PTTMkNzQbqcRBVl/b6ARBqnHHIQhhuSw9DGaCUDWo2/T8ELSNzZd
+pZkKpJ62DTMbyHruBQ0tJMPC/9NMC1Kd/KFhhcRO13BB0Clv7C4GiJNLliqD
+xOfyEUic8gCfXm6KaBK/SwcmccwBLIlnMkM7iq8YkMT5quFIvMMPI3HP4xtr
+SetZnqW7bYkrwqZzZcTIslsDNFoTjTvZF9lpggENaKw/UBAbhEHdtI4WKrtp
+YHffxopmc7Nw04gWoQ4a5HyoUaoNBjyx6zjlIA12KTdUn90dxPva1Gf9cns0
+8MX1kN4NGEaVYNjBFg2hmmZZbX5ZPKcU04zcvKChgFgut0q5jA7QjFVpHB5L
+4FAo1h5ZupFIWE+ZZnBJ0k0SPd3sKIK6SaKny5uw2HsMFBRrjyzdHIcFdZNE
+Tzc7iqBukujp5oRFUDcSSY7Do7r2HgOll7VHlm52lHFde4+B0svaI0s3O8qw
+ahASl0zgPJX3EKXslPCRJGxecVLE7yfyEpxmj9cR326ut8Qc1bA7IT3FoJtT
+XbWQG4adlXB7uL2FYNvq3XUwJIgkhnQUTG+McrUQJLhXXNxHR9xA7+wedvON
+cut1JgG/4uI51QavGvw8Y1dyUdZxfiSMV1xcFBkVzigVKB+S6V9x+euSVXI2
+VuY9BTB+VYj8OMOORuG5jAmMAkhtxxiNCkj9sp9GCmT5oQ9GDqT+2kyjCbIc
+0USjC1IPO0ojDrIcegRmApB6/A7NLCD1pOs0U4EsJ27DTAdSz76gmRNk8fAP
+zbwg1U0p15INY4ayYUCqvyAgNEsQNUsQNUsQNUsQNUsQNUsQNUsQNUsQNUsQ
+NUsQNUsQNUsQNUsQNUsQrP0GkL8PLA==
+       "], {{0, 183}, {202, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{202, 183},
+     PlotRange->{{0, 202}, {0, 183}}]}], ",", 
+   RowBox[{"25", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJImheILRnIA4wg
+QI4eEjUyUqZp8OkZIo4jRw+tHQfXSKIeMAAAzBEJ1A==
+       "], {{0, 13}, {57, 0}}, {
+       0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{57, 13},
+     PlotRange->{{0, 57}, {0, 13}}]}], ",", 
+   RowBox[{"26", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWgCILYCYgREI
+GEgHjDBAgV4ytA6U3iHoZIaR5eQB9i45WkF6AaCgCdI=
+       "], {{0, 16}, {56, 0}}, {
+       0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{56, 16},
+     PlotRange->{{0, 56}, {0, 16}}]}], ",", 
+   RowBox[{"27", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIBRlggBEM
+QAwoFyGKxIcIofAhbGQ+pgDQUFQ+pgC6DioJEFSC4XY0NYyoupBl4IHDAADW
+tgl8
+       "], {{0, 19}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 19},
+     PlotRange->{{0, 17}, {0, 19}}]}], ",", 
+   RowBox[{"28", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhRhggBEM
+GJD4qDSCAWNhqEYWgPAwRFAFILbST4QYF2LxFxa/YwkfBtQwBACOmwmL
+       "], {{0, 
+       19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"29", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIpYCYEQQY
+0ABMEJsMXAWGFoIyaOYh+PhkUKSQuHhlkKSQefhlyOJAechswjJgLhKTKBmk
+kCUgw8iIiFWY9RAAAFZtCcE=
+       "], {{0, 19}, {26, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{26, 19},
+     PlotRange->{{0, 26}, {0, 19}}]}], ",", 
+   RowBox[{"30", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJI2hyIBYGYkZGR
+ARUQI0COnsFjyKjrR10/xFwPACLzCds=
+       "], {{0, 55}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 55},
+     PlotRange->{{0, 17}, {0, 55}}]}], ",", 
+   RowBox[{"31", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0}, {0, 0, 
+        1, 0, 0, 0, 0, 1, 1, 1, 0}, {0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 1, 
+        0, 0, 0, 0, 0, 0, 1, 1, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 
+        0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 
+        0, 0, 0, 0, 0, 0, 0, 0, 0}, {1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 1, 
+        1, 0, 0, 0, 0, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0}, {0, 0, 
+        1, 1, 1, 1, 1, 1, 1, 1, 0}, {0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0}}], {{0, 
+       13}, {11, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{11, 13},
+     PlotRange->{{0, 11}, {0, 13}}]}], ",", 
+   RowBox[{"32", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0, 1, 1, 1, 1, 0, 0, 0}, {0, 1, 1, 1, 
+        1, 1, 1, 0, 0}, {1, 1, 0, 0, 0, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 1, 1, 
+        0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 0, 0, 0, 0, 1, 1, 0}, {0, 0, 
+        0, 0, 0, 0, 1, 0, 0}, {0, 0, 0, 0, 0, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 1, 
+        0, 0, 0}, {0, 0, 0, 0, 1, 0, 0, 0, 0}, {0, 0, 0, 1, 0, 0, 0, 0, 0}, {
+        0, 0, 1, 0, 0, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 1, 
+        1, 1, 1, 1, 0}}], {{0, 14}, {9, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{9, 14},
+     PlotRange->{{0, 9}, {0, 14}}]}], ",", 
+   RowBox[{"33", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhOItRiIB4xE
+K2QkUumowlGFowpHFY4qHFVIhkIGAOUlCeI=
+       "], {{0, 41}, {42, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", 
+           "ImageDescription" -> "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{42, 41},
+     PlotRange->{{0, 42}, {0, 41}}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{{3.7716921134906197`*^9, 3.77169214338724*^9}, {
+  3.771692219980155*^9, 3.771692257475759*^9}},
+ CellLabel->
+  "Out[307]=",ExpressionUUID->"1bd009aa-11a4-4380-99e7-b8d037817e13"]
+}, Open  ]],
 
 Cell[BoxData[
  RowBox[{"symbols", "=", 
@@ -60,8 +2138,8 @@ Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{
   RowBox[{"i", "=", 
-   RowBox[{"images", "[", 
-    RowBox[{"[", "1493", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+   RowBox[{"imagesLocal", "[", 
+    RowBox[{"[", "2", "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{"comps", "=", 
    RowBox[{"MorphologicalComponents", "@", 
@@ -81,9 +2159,10 @@ Cell[BoxData[{
       "All", ",", "\"\<Dataset\>\""}], "]"}]}], ";"}]}], "Input",
  CellChangeTimes->{{3.7716223773718023`*^9, 3.771622483135988*^9}, {
   3.771622514467772*^9, 3.771622518561763*^9}, {3.771670792635407*^9, 
-  3.771670849662323*^9}, {3.771670951527433*^9, 3.771670960542233*^9}},
+  3.771670849662323*^9}, {3.771670951527433*^9, 3.771670960542233*^9}, {
+  3.771692107408389*^9, 3.771692108751388*^9}},
  CellLabel->
-  "In[112]:=",ExpressionUUID->"8653d7ea-2106-4847-9051-7fe579e20606"],
+  "In[290]:=",ExpressionUUID->"8653d7ea-2106-4847-9051-7fe579e20606"],
 
 Cell[BoxData[
  GraphicsBox[
@@ -266,9 +2345,11 @@ AHRP7gGge3IPAN2TewDontwDQPfkHgC6J/cA0D25B4DuyT0AdE/uAaB7cg8A
   ImageSize->Medium,
   ImageSizeRaw->{678, 715},
   PlotRange->{{0, 678}, {0, 715}}]], "Output",
- CellChangeTimes->{3.771670855891048*^9, 3.771670961788453*^9},
+ CellChangeTimes->{
+  3.771670855891048*^9, 3.771670961788453*^9, {3.771692100788807*^9, 
+   3.771692109131885*^9}},
  CellLabel->
-  "Out[114]=",ExpressionUUID->"f08ff44a-2c29-47f2-a6d9-b307a2ab9752"]
+  "Out[292]=",ExpressionUUID->"8ac6c6b4-2e57-412c-aadb-3df40c92a0eb"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2217,36 +4298,1044 @@ Cell[BoxData[
  RowBox[{"symbols", "=", 
   RowBox[{"ColorNegate", "/@", 
    RowBox[{"Association", "@", 
-    RowBox[{"extractedInfo", "[", 
-     RowBox[{"All", ",", "\"\<MaskedImage\>\""}], "]"}]}]}]}]], "Input",
+    RowBox[{"Normal", "@", 
+     RowBox[{"extractedInfo", "[", 
+      RowBox[{"All", ",", "\"\<MaskedImage\>\""}], "]"}]}]}]}]}]], "Input",
  CellChangeTimes->{{3.7716223773718023`*^9, 3.771622483135988*^9}, {
   3.771622514467772*^9, 3.771622518561763*^9}, {3.771670792635407*^9, 
-  3.771670862565483*^9}, {3.7716710287475357`*^9, 3.7716710324584827`*^9}},
+  3.771670862565483*^9}, {3.7716710287475357`*^9, 3.7716710324584827`*^9}, {
+  3.771692274796129*^9, 3.771692276772916*^9}},
  CellLabel->
-  "In[125]:=",ExpressionUUID->"63f6567e-4e4a-4c1f-9b87-07e26c27c81f"],
+  "In[308]:=",ExpressionUUID->"63f6567e-4e4a-4c1f-9b87-07e26c27c81f"],
 
 Cell[BoxData[
- TemplateBox[{
-  "ColorNegate","imginv",
-   "\"\\!\\(\\*RowBox[{\\\"Dataset\\\", RowBox[{\\\"[\\\", RowBox[{\\\"\
-\[LeftSkeleton]\\\", \\\"33\\\", \\\"\[RightSkeleton]\\\"}], \\\"]\\\"}]}]\\) \
-should be a valid image, a color directive, or a list of such objects.\"",2,
-   125,20,26196737032844541258,"Local"},
-  "MessageTemplate"]], "Message", "MSG",
- CellChangeTimes->{3.7716710327170057`*^9},
- CellLabel->
-  "During evaluation of \
-In[125]:=",ExpressionUUID->"d070f42b-cc7b-4382-8069-2f5877b04387"],
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{"1", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+         0}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0}, {1, 1, 1, 0, 0, 1,
+         1, 1, 1, 1, 1, 1, 1, 1, 0}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 
+        1, 0}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 0, 0, 
+        1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1,
+         1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1}, {1, 1, 1, 0, 0,
+         1, 1, 1, 1, 1, 0, 0, 1, 1, 1}, {1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 
+        1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1}, {1, 1, 1, 0, 
+        0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0,
+         1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 0,
+         0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 
+        1, 1, 1, 1}, {1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {1, 1, 1, 
+        0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1,
+         1, 1, 1, 1}}], {{0, 19}, {15, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{15, 19},
+     PlotRange->{{0, 15}, {0, 19}}]}], ",", 
+   RowBox[{"2", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJzt3U1uE0sUQOE2I5YBu2DKkGlYQZACM5ACEmL3BCETK3bb9XPurab6HIkn
+IOm6ru+lEsdB9ttP3+4+v1qW5fvrp//c3f98//h4/+vjnz98+Prj4cvD47tP
+f9785vD01qdfh6yWxFl7aPnb6JsxTctzo2/KHB0pJWU6ddS0v5eGmnZ2Djj9
+p9PQ3V3Gm500znRdTtPWVdfX1bRlxatr+um0ermbC85OipoWYmlavk7hSns4
++v3bq0Pag2n/CnVLzE7aadrEo+m1K5uu3cPRb9peB8vspE02nSh7MK19/16Q
+2U3rtsfd79L0+J6IxOykhaYowx5MC96FJNj90Q/Y/q5Ng/Y+O+m6adzGZze9
+vL/QTe/w6IfveG+mGbudnfQUMWurs5se95e4z10c/eQ9zk46YoOTi2b+O/OB
+IzNTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXp
+FKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXp
+FKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXpFKVTlE5ROkXp
+FKVTlE5ROkXpFKXbiWjeE/OOedbhISNTho56ZuxBI8OHjnr29tyReTNPB2S+
+wsCAkcuF38dMWv/jTCNfzowZer5wyplIHnlhQtDMy8uGH4nLIyeYub5k3P4G
+jVyfSQ69ulzcmRgwcnVZ9J7UraUC9lcyMmLmtTWxmSULBRyJ5JHFM7uHli5C
+bnDQyILFgKNfvgB6JpJH5s2suxrZX/1IZmb5Kh0z6y/t39+gkfUzG4a2XZZ5
+JrCR1Zc3X1R7Tc91nSN7ZrZcW31dz//3jtvYMzLFpfXa3s/3mWeic2Tv54ui
+64mvn/lfXzb8NY25j1d9f4QZmXIfqG4V7D5z+UoDRsLfol9ZCRv0bzXqvdCR
+ad+/sp6HohseMXIrM3HP46Ltb24emfKY3O01Yx4Xv3b7AzwLRoY9Vh3+I8WT
+aau3Im7kdn6eEjSs7C/Rkdv4mV/gsOt/ETLyfGbo0JFHP2XwcjYzfGgq6Yli
+2tglf+aIo589cjmk7jP96Kcei+eRmUNHHf3MkdlDB+wytQHbU3SCkZkpSqco
+naJ0itIpSqconaJ0itIpSqconaJ0itIpSqconaJ0itIpSqconaJ0itIpSqco
+naJ0itIpSqconaJ0itIpSqconaJ0itIpSqconaJ0itIpSqconaJ0itIpSqco
+naJ0itIpSqconaJ0itIpSqconaJ0itIpSqconaJ0itIpSqconaJ0itIpSqco
+naJ0isL5rMNsg54ZO29acoOevT1n0oBOHRNfYSBjzJgGvQpG9IxhnW8u5ZVa
+Itcf2qBXEwpbe3TrcnGk03+Atr0xZuT/3q3NRRz92T1v7Y4mnfkDtPTjjzTQ
+s/Zdby9ErLPJ6jbHmM4MWr+3fo3ZPes31yeiJ3nhYX7QnmtbLtaTvX52z97N
+VS8xMSh0t7JumYk9wb3VfW/AzNxe7N7KVgt/1Hpg+N5GPMayoUI+Vm4tqmfb
+wulDN1Hc1lbZpvYM7fKHop49nZvOfeAzegGoJ9AJop5Mx4Pugedajo2+IROl
+J56edIrSKUqnKJ2idIrSKUqnKJ2idIrSKUqnKJ2idIrSKUqnKJ2idIrSKUqn
+KJ2idIrSKUqnKJ2idIrSKUqnKJ2idIrSKUqnKJ2idIrSKUqnKJ2idIrSKUqn
+KJ2idIrSKUqnKJ2idIrSKUqnKJ2idIrSKUqnKF2H6G9snXy4
+       "], {{0, 288}, {338, 
+       0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{338, 288},
+     PlotRange->{{0, 338}, {0, 288}}]}], ",", 
+   RowBox[{"3", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYkVRA
+shYGUm1hIEsH7TWQpGNYeGIwumnUEzTUMOTdNEI9QUaxzAgAmlAO4A==
+       "], {{0, 
+       30}, {51, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"4", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 
+        0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 
+        0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 
+        0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}}], {{0, 57}, {2, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{2, 57},
+     PlotRange->{{0, 2}, {0, 57}}]}], ",", 
+   RowBox[{"5", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYEYhI
+BAwgQDdNpOohS9Ool8i3aDTAEXpGvTQUXDcMvUSqHqAmAJTvDuA=
+       "], {{0, 30}, {51,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"6", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYEYhI
+BAwgQDdNpOohS9Ool8i3aDTAEXpGvTQUXDcMvUSqHqAmAJTvDuA=
+       "], {{0, 30}, {51,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"7", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRRgQgBEI
+kNgQAQiAsQeXGAOa4web+9DEsIUzAIPOCks=
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"8", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhYCYEQwY
+wIARDhDiaAJwFoZqZAEID0MEVQBiK/1EiHEhFn9h8TuW8GFEDUMACJcKQQ==
 
-Cell[BoxData[
- RowBox[{"Association", "[", 
-  RowBox[{"ColorNegate", "[", 
-   RowBox[{"extractedInfo", "[", 
-    RowBox[{"All", ",", "\<\"MaskedImage\"\>"}], "]"}], "]"}], 
-  "]"}]], "Output",
- CellChangeTimes->{3.7716710327283382`*^9},
+       "], {{0, 19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"9", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIBYGYEQwY
+wADEgHIRokh8iBAKH8JG5mMKAA1F5WMKoOugkgBBJRhuR1MDDx4M3fAQY2QE
+AEZXCjs=
+       "], {{0, 19}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 19},
+     PlotRange->{{0, 17}, {0, 19}}]}], ",", 
+   RowBox[{"10", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 
+        0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 
+        0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 
+        0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {
+        0, 0}}], {{0, 57}, {2, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{2, 57},
+     PlotRange->{{0, 2}, {0, 57}}]}], ",", 
+   RowBox[{"11", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1, 0, 0, 0, 0, 1, 1, 1}, {1, 0, 0, 0, 
+        0, 0, 0, 1, 1}, {0, 0, 1, 1, 1, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 1, 0, 0, 
+        1}, {1, 1, 1, 1, 1, 1, 0, 0, 1}, {1, 1, 1, 1, 1, 1, 0, 0, 1}, {1, 1, 
+        1, 1, 1, 1, 0, 1, 1}, {1, 1, 1, 1, 1, 0, 1, 1, 1}, {1, 1, 1, 1, 1, 0, 
+        1, 1, 1}, {1, 1, 1, 1, 0, 1, 1, 1, 1}, {1, 1, 1, 0, 1, 1, 1, 1, 1}, {
+        1, 1, 0, 1, 1, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 
+        0, 0, 0, 0, 1}}], {{0, 14}, {9, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{9, 14},
+     PlotRange->{{0, 9}, {0, 14}}]}], ",", 
+   RowBox[{"12", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWg6IjYGYkVRA
+shYGUm1hIEsH7TWQpGNYeGIwumnUEzTUMOTdNEI9QUaxzAgAmlAO4A==
+       "], {{0, 
+       30}, {51, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{51, 30},
+     PlotRange->{{0, 51}, {0, 30}}]}], ",", 
+   RowBox[{"13", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRRgQgBEI
+kNgQAQiAsQeXGAOa4web+9DEsIUzAIPOCks=
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"14", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhYCYEQwY
+wIARDhDiaAJwFoZqZAEID0MEVQBiK/1EiHEhFn9h8TuW8GFEDUMACJcKQQ==
+
+       "], {{0, 19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"15", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRRgQgBEI
+kNgQAQiAsQeXGAOa4web+9DEsIUzAIPOCks=
+       "], {{0, 19}, {20, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{20, 19},
+     PlotRange->{{0, 20}, {0, 19}}]}], ",", 
+   RowBox[{"16", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRRmggBEG
+EHxkUSAPIU+sICOysQgaIYokiBBFFWTAFGTEKggTRTMGIoohyIApyIhVECyK
+IQgSxRRECgZCgjB3oQc+EAMAWqEKdA==
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"17", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhCI5RjAgBEf
+oLE8IftpbzwtnUdj6wnFHmHjAT/wCwc=
+       "], {{0, 17}, {30, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{30, 17},
+     PlotRange->{{0, 30}, {0, 17}}]}], ",", 
+   RowBox[{"18", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRRmggBEG
+EHxkUSAPIU+sICOysQgaIYokiBBFFWTAFGTEKggTRTMGIoohyIApyIhVECyK
+IQgSxRRECgZCgjB3oQc+EAMAWqEKdA==
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"19", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJztm01u2zAQheWueoUue4tuu+w2PUECpN21QFqg6IV7jkaJY1syn37IeUMO
+/T6gAYzGb0afSJmmlI8PP+++vRuG4df75x93938+Pz3d//06vvjy4/fj98en
+Tw/jf/97/vfhMAwHMm8V+JWCITEAiQFIDEBiABIDkBiAxAAkBiAxAIkBSAxA
+YgASA5AYgMQAJAYgMQCJAUgMQGIAEgOQGIDEACQGIDEAiQFIDEBiABIDkBiA
+xAAkBiAxAIkBSAxAYgASA5AYgMQAJAYgMQCJAUgMQGIAEgOQGIDEACQGIDGA
+Ucjw/ENiZrw4eaF2J40xnKjdSWMclcjMjJMQmblkYkNqTsxUyMwr11dcmRlJ
+WpAapCCYGfNmFxYukdSYr78W8yKZMVazEhbKjGG3G5JuUs2mmHhmStvdnBHK
+TPmJ3BHQ/KCZtlfW7q53N25mPvYL5tPut96Imoy3NW7mqr+sfvMOsnEz5Wqy
+z32EQVMwnwoOr3UzJYOmcAHUuplsNZ6rn0pkzSeLw4pmZsNBG30vtx801nsp
+O9WYVbc8jOGMVeRb7LzKxt8trWuTcu7YehgmBk2ygPE5KU1LjBKCmQ3ziXJd
+yH5jeupQLl1LrwkbxcfQnPcs9GLf5MqlhrT22L/gXjtB/NM3aYC3Jtuxqty8
+zipuKlE8+ZoyjVDV9G/s6IDRa3o+MbUcyyw1tPu0sCb97CV1uCSLTktn7fqU
+95RK3baqMa6ZPB/5n+YWXSViPa66V0XPBYtPBqvpaZeUEqmag4mUtzSDnhaC
+HbcHbK9mvBP6muw2YMzPAdlMXDHM1sfouGKoJ9X34hsg0il8WihGpk84u04H
+Q4ZThnyZoWVPypBimWZo0Q5VyB/adNgL1VjJkyLEaJ4ZUrBTDeIXSk7upAR3
+xRHvyn4qQY5nmaHEOlaIKoY/Jl12gRkFuPnEXWBGql/+gfeVgxB6GR91CUm/
+4cZMP1eJtrHhtbPBuXVrHnkZrk1CEM7LnlcimLFO9Mm+KmW/424ceBntJ4Zx
+K8I40CXaoxpzI4yVnK5mfl/PNu8i2FWMeb3Q22CzgjHMuIuxNhN3F4xcM+pe
+T7po+2aqiLE105MYUzPhbi6vFG4zi5npXlhiHLJOkT2IOQTbAFuubBoWapvH
+sXCo5yrXKtvGmaZ1M5MYzyjb5lUrHOap9vXK1oG2ab3MpOYv5vUKG39d70eM
+6RjsaCZ1IqbeGdlEVzPJkq5mkiUaMGk0kwAVZ5LEtFV4G5pJAM0kgAZMGs0k
+gGYS4DYGzJCDY3/TXl2LhfHS/kzq4F4+hVpmmhdTy0z7YuqYCeCl1mOJ7iUz
+qGAmhpgKZoKIqfC4vGu5ApzNxBET/W9yeLgOmUBefM2EEuNpJpYYz78u9qlj
+hpeZcGK8zMQT42MmoBcfMyHFeJiJKYbfdlAv/CETVQzdTFgxZDMV79gUQ+09
+sBeumdBiiGYiz6QRWv/BvfDMhBdDMhN9Jo2QxBBCnaGc3B7EMMz0MJMOjMPo
+wwvBTC9irM10MpNG7A6l7hN/9lgcTAvPQtpTeDBTIzJzfOPVKOnMTM57wNTp
+yczOY1m5nNykmU2X2Fszs/1z53bM7P0svgkzWeuTzs0ULNo6EjMzU7iQ7WnI
+nA7GZHHfmxm7bzz9mTEMs4rqDJlByAxCZhAyg5AZhMQANGQQMoOQGYTMIGQG
+ITMImUHIDEJmEBID0JBByAxCZhAyg5AZhMwgZAYhMwiJQQz/AQTW/0U=
+       "], {{0, 
+       230}, {281, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{281, 230},
+     PlotRange->{{0, 281}, {0, 230}}]}], ",", 
+   RowBox[{"20", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhYCYEQwY
+wIARDhDiaAJwFoZqZAEID0MEVQBiK/1EiHEhFn9h8TuW8GFEDUMACJcKQQ==
+
+       "], {{0, 19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"21", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhuINRhAgJE4
+MKqQKgqJDvAh4JehoJCE8B6NQXzqRqZC4tSNhjfdFQIAlaoPug==
+       "], {{0, 43}, {40,
+        0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{40, 43},
+     PlotRange->{{0, 40}, {0, 43}}]}], ",", 
+   RowBox[{"22", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJI2hyIhYGYER2Q
+K4TFrGGlbxA4YdTLNNc3CJwwCPQBAKHNDPY=
+       "], {{0, 55}, {19, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{19, 55},
+     PlotRange->{{0, 19}, {0, 55}}]}], ",", 
+   RowBox[{"23", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIRRmggBEG
+EHxkUSAPIU+sICOysQgaIYokiBBFFWTAFGTEKggTRTMGIoohyIApyIhVECyK
+IQgSxRRECgZCgjB3oQc+EAMAWqEKdA==
+       "], {{0, 19}, {21, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{21, 19},
+     PlotRange->{{0, 21}, {0, 19}}]}], ",", 
+   RowBox[{"24", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJztm02O1DAQhQMrrsEt2LJkO5xgRhrYgdQgIU7GHTgVPYrDDHS645+q955L
+VVK31J24nr+U7dgV5+3D17tPr5dl+fbm/HV3/+P96XT/8+PTjw9fvj9+fjy9
+e3g6/Ov8+X3+vApiYUjixCQQSBwSdg2MLExIwoBk29KzQCBBSMKAZNvSs0Ag
+cUjYNTCyMCEJA5JtS88CgQQhIYMsi1kFBEBsaLgh2dQtaCRAth8jNNSQXIoP
+wGiBlH97aJghuaHdTiMKsh1voBEGKedUwhBDUi1dRzMByHb2bRpeSPrGpqs0
+U4GUYvsws4FsZS9oaCEZFv6fZlqQ4uQvDSskdrqGC4JOeWN3MUCcXLJUGSQ+
+l49A4tQO8M3LTRFN4nfpwCSObQBL4tmYoR3FVwxI4nzVcCTe4YeRuLfjG2tJ
+61mepbt9iSvCpnNlxMhymAM0WhONOzkWOaiCAQ1orK9IiA3CoG5atYnKbhrY
+3bcxo9lcLdw0okWogwY5H2qUaoMBT+w6ilTSYJdyQ/nZw0G8r0591i93RANf
+XA/p3YBhZAmGHezRELJpltnml8lzSjLNyM0LGgqI5XJrWS6jAzRjVRqHxxI4
+FIq1R5ZuJBLWU6YZXJJ0k0RPNzuKoG6S6OnyJiz2HgMFxdojSzfHYUHdJNHT
+zY4iqJskero5YRHUjUSS4/Corr3HQM3L2iNLNzvKuK69x0DNy9ojSzc7yrBq
+EBKXlsB5Ku8hStkp4SNJ2LzipIjfT+QlOM0erxrfbq73xBzVsDshPcWgm1Nd
+tZAbhp2VcHu4vYVg2+rddTAkiEYM6SiY3hjlaiFIcK+4uI+OuIHe2T3s5hvl
+1utMAn7FxXOqDV41+HnGruSirOP8SBivuLgoMjKcUTJQPiTTv+Ly7JKVcjZW
+5j0FMH5ViPw4w45G4bmMCYwCSKnHGI0KSPmzn0YKZD3QByMHUo4202iCrGc0
+0eiClNNqacRB1lNrYCYAKecf0MwCUgpdp5kKZC24DzMdSCl9QTMnyOrhH5p5
+QYqbZbnW2DBmKBsGpPgLAkKzBFGzBFGzBFGzBFGzBFGzBFGzBFGzBFGzBFGz
+BFGzBFGzBFGzBFGzBMHaH6lGlmg=
+       "], {{0, 183}, {202, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{202, 183},
+     PlotRange->{{0, 202}, {0, 183}}]}], ",", 
+   RowBox[{"25", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJImheILYGYkQzA
+wEC6RgY4IEcPWZoGn54h4jhy9NDacXCNJOoBAwCfjwvJ
+       "], {{0, 13}, {57, 0}}, {
+       0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{57, 13},
+     PlotRange->{{0, 57}, {0, 13}}]}], ",", 
+   RowBox[{"26", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWgCILYCYkQFE
+kA4YYIACvWRoHSi9Q9DJjCPLyQPsXXK0gvQCAB9DDGo=
+       "], {{0, 16}, {56, 0}}, {
+       0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{56, 16},
+     PlotRange->{{0, 56}, {0, 16}}]}], ",", 
+   RowBox[{"27", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIBYGYEQwY
+wADEgHIRokh8iBAKH8JG5mMKAA1F5WMKoOugkgBBJRhuR1MDDx4M3fAQY2QE
+AEZXCjs=
+       "], {{0, 19}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 19},
+     PlotRange->{{0, 17}, {0, 19}}]}], ",", 
+   RowBox[{"28", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIhYCYEQwY
+wIARDhDiaAJwFoZqZAEID0MEVQBiK/1EiHEhFn9h8TuW8GFEDUMACJcKQQ==
+
+       "], {{0, 19}, {18, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{18, 19},
+     PlotRange->{{0, 18}, {0, 19}}]}], ",", 
+   RowBox[{"29", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhiIpRiggBEN
+wASxycBVYGghKINmHoKPTwZFComLVwZJCpmHX4YsDpSHzCYsA+YiMYmSQQpZ
+AjLIsQqzHgIATyUKsw==
+       "], {{0, 19}, {26, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{26, 19},
+     PlotRange->{{0, 26}, {0, 19}}]}], ",", 
+   RowBox[{"30", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJI2hyIBRnAgBEV
+ECNAjp7BY8io60ddP8RcDwAElAyI
+       "], {{0, 55}, {17, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{17, 55},
+     PlotRange->{{0, 17}, {0, 55}}]}], ",", 
+   RowBox[{"31", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1}, {1, 1, 
+        0, 1, 1, 1, 1, 0, 0, 0, 1}, {1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1}, {1, 0, 
+        1, 1, 1, 1, 1, 1, 0, 0, 0}, {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 
+        1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 0, 
+        1, 1, 1, 1, 1, 1, 1, 1, 1}, {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0}, {1, 0, 
+        0, 1, 1, 1, 1, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 1}, {1, 1, 
+        0, 0, 0, 0, 0, 0, 0, 0, 1}, {1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1}}], {{0, 
+       13}, {11, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{11, 13},
+     PlotRange->{{0, 11}, {0, 13}}]}], ",", 
+   RowBox[{"32", "\[Rule]", 
+    GraphicsBox[
+     TagBox[
+      RasterBox[
+       RawArray["UnsignedInteger8",{{1, 1, 0, 0, 0, 0, 1, 1, 1}, {1, 0, 0, 0, 
+        0, 0, 0, 1, 1}, {0, 0, 1, 1, 1, 0, 0, 0, 1}, {0, 1, 1, 1, 1, 1, 0, 0, 
+        1}, {1, 1, 1, 1, 1, 1, 0, 0, 1}, {1, 1, 1, 1, 1, 1, 0, 0, 1}, {1, 1, 
+        1, 1, 1, 1, 0, 1, 1}, {1, 1, 1, 1, 1, 0, 1, 1, 1}, {1, 1, 1, 1, 1, 0, 
+        1, 1, 1}, {1, 1, 1, 1, 0, 1, 1, 1, 1}, {1, 1, 1, 0, 1, 1, 1, 1, 1}, {
+        1, 1, 0, 1, 1, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 0, 0, 0, 0}, {0, 0, 0, 0, 
+        0, 0, 0, 0, 1}}], {{0, 14}, {9, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", "ImageDescription" -> 
+           "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{9, 14},
+     PlotRange->{{0, 9}, {0, 14}}]}], ",", 
+   RowBox[{"33", "\[Rule]", 
+    GraphicsBox[
+     TagBox[RasterBox[CompressedData["
+1:eJxTTMoPSmNiYGAo5gASQYnljkVFiZXBII5nXklqemqRRRJIWhOItYCYkUhA
+vEJizRxVOKpwVOGowlGFowrJUMgIAGgkD6o=
+       "], {{0, 41}, {42, 0}}, {0, 1},
+       ColorFunction->GrayLevel],
+      BoxForm`ImageTag[
+      "Bit", ColorSpace -> Automatic, Interleaving -> None, Magnification -> 
+       Automatic, MetaInformation -> 
+       Association[
+        "Exif" -> Association[
+          "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 1, 
+           "PhotometricInterpretation" -> "White Is Zero", 
+           "ImageDescription" -> "**ART;ITEM01251;*", 
+           "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 4230, 4587},
+            "Orientation" -> 
+           Association["CameraTopOrientation" -> Top, "Mirrored" -> False], 
+           "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+           "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 81}, 
+           "XResolution" -> 300, "YResolution" -> 300, "PlanarConfiguration" -> 
+           1, "ResolutionUnit" -> "inch"]]],
+      Selectable->False],
+     DefaultBaseStyle->"ImageGraphics",
+     ImageSize->Automatic,
+     ImageSizeRaw->{42, 41},
+     PlotRange->{{0, 42}, {0, 41}}]}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{3.7716710327283382`*^9, 3.771692277570994*^9},
  CellLabel->
-  "Out[125]=",ExpressionUUID->"f0062dff-58a7-471e-9965-30ccf7c8b800"]
+  "Out[308]=",ExpressionUUID->"286f729d-a27d-4cd3-bcaf-faebf7be7310"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5625,58 +8714,408 @@ Cell[BoxData[
     RowBox[{"{", 
      RowBox[{"comps", ",", 
       RowBox[{"ColorNegate", "@", 
-       RowBox[{"images", "[", 
-        RowBox[{"[", "1493", "]"}], "]"}]}]}], "}"}], ",", 
-    "\"\<Properties\>\""}], "]"}]}]], "Input",
- CellChangeTimes->{{3.771621147519953*^9, 3.7716211572567987`*^9}},
+       RowBox[{"imagesLocal", "[", 
+        RowBox[{"[", "2", "]"}], "]"}]}]}], "}"}], ",", 
+    "\"\<Description\>\""}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.771621147519953*^9, 3.7716211572567987`*^9}, {
+  3.771692372425675*^9, 3.7716924075246677`*^9}},
  CellLabel->
-  "In[1007]:=",ExpressionUUID->"d40f592f-bbd8-45f5-9055-ab9149c10deb"],
+  "In[318]:=",ExpressionUUID->"d40f592f-bbd8-45f5-9055-ab9149c10deb"],
 
 Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"\<\"AdjacentBorderCount\"\>", ",", "\<\"AdjacentBorders\"\>", 
-   ",", "\<\"Area\"\>", ",", "\<\"AreaRadiusCoverage\"\>", 
-   ",", "\<\"AuthalicRadius\"\>", ",", "\<\"BoundingBox\"\>", 
-   ",", "\<\"BoundingBoxArea\"\>", ",", "\<\"BoundingDiskCenter\"\>", 
-   ",", "\<\"BoundingDiskCoverage\"\>", ",", "\<\"BoundingDiskRadius\"\>", 
-   ",", "\<\"CaliperElongation\"\>", ",", "\<\"CaliperLength\"\>", 
-   ",", "\<\"CaliperWidth\"\>", ",", "\<\"Centroid\"\>", 
-   ",", "\<\"Circularity\"\>", ",", "\<\"Complexity\"\>", 
-   ",", "\<\"ContourHierarchy\"\>", ",", "\<\"Contours\"\>", 
-   ",", "\<\"ConvexArea\"\>", ",", "\<\"ConvexCount\"\>", 
-   ",", "\<\"ConvexCoverage\"\>", ",", "\<\"ConvexPerimeterLength\"\>", 
-   ",", "\<\"ConvexVertices\"\>", ",", "\<\"Count\"\>", ",", "\<\"Data\"\>", 
-   ",", "\<\"DenseContours\"\>", ",", "\<\"Dimensions\"\>", 
-   ",", "\<\"Eccentricity\"\>", ",", "\<\"Elongation\"\>", 
-   ",", "\<\"EmbeddedComponentCount\"\>", ",", "\<\"EmbeddedComponents\"\>", 
-   ",", "\<\"EnclosingComponentCount\"\>", ",", "\<\"EnclosingComponents\"\>",
-    ",", "\<\"Energy\"\>", ",", "\<\"Entropy\"\>", 
-   ",", "\<\"EquivalentDiskRadius\"\>", ",", "\<\"EulerNumber\"\>", 
-   ",", "\<\"ExteriorNeighborCount\"\>", ",", "\<\"ExteriorNeighbors\"\>", 
-   ",", "\<\"FilledCircularity\"\>", ",", "\<\"FilledCount\"\>", 
-   ",", "\<\"Fragmentation\"\>", ",", "\<\"Holes\"\>", ",", "\<\"Image\"\>", 
-   ",", "\<\"IntensityCentroid\"\>", ",", "\<\"IntensityData\"\>", 
-   ",", "\<\"InteriorNeighborCount\"\>", ",", "\<\"InteriorNeighbors\"\>", 
-   ",", "\<\"Label\"\>", ",", "\<\"LabelCount\"\>", ",", "\<\"Length\"\>", 
-   ",", "\<\"Mask\"\>", ",", "\<\"MaskedImage\"\>", ",", "\<\"Max\"\>", 
-   ",", "\<\"MaxCentroidDistance\"\>", ",", "\<\"MaxIntensity\"\>", 
-   ",", "\<\"MaxPerimeterDistance\"\>", ",", "\<\"Mean\"\>", 
-   ",", "\<\"MeanCaliperDiameter\"\>", ",", "\<\"MeanCentroidDistance\"\>", 
-   ",", "\<\"MeanIntensity\"\>", ",", "\<\"Median\"\>", 
-   ",", "\<\"MedianIntensity\"\>", ",", "\<\"Medoid\"\>", ",", "\<\"Min\"\>", 
-   ",", "\<\"MinCentroidDistance\"\>", ",", "\<\"MinimalBoundingBox\"\>", 
-   ",", "\<\"MinIntensity\"\>", ",", "\<\"NeighborCount\"\>", 
-   ",", "\<\"Neighbors\"\>", ",", "\<\"Orientation\"\>", 
-   ",", "\<\"OuterPerimeterCount\"\>", ",", "\<\"PerimeterCount\"\>", 
-   ",", "\<\"PerimeterLength\"\>", ",", "\<\"PerimeterPositions\"\>", 
-   ",", "\<\"PolygonalLength\"\>", ",", "\<\"Rectangularity\"\>", 
-   ",", "\<\"SemiAxes\"\>", ",", "\<\"Skew\"\>", 
-   ",", "\<\"StandardDeviation\"\>", 
-   ",", "\<\"StandardDeviationIntensity\"\>", ",", "\<\"Total\"\>", 
-   ",", "\<\"TotalIntensity\"\>", ",", "\<\"Width\"\>"}], "}"}]], "Output",
- CellChangeTimes->{{3.771621142129737*^9, 3.7716211577946453`*^9}},
+ TemplateBox[{
+  "ComponentMeasurements","invprop",
+   "\"Description is not a known image segment property.\"",2,318,53,
+   26196891953532182111,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.7716923761174707`*^9, 3.7716924080120773`*^9}},
  CellLabel->
-  "Out[1007]=",ExpressionUUID->"0a2e2b86-a8c5-4ee2-b862-1e6ffae803b8"]
+  "During evaluation of \
+In[318]:=",ExpressionUUID->"2cecdd90-c2c8-48a2-b955-b32b1369cc5d"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{"ComponentMeasurements", "[", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{
+             RowBox[{"{", 
+              TemplateBox[{"1"},
+               "OutputSizeLimit`Skeleton"], "}"}], ",", 
+             GraphicsBox[
+              TagBox[RasterBox[CompressedData["
+1:eJzt3U2S4zp2huGkR96Gd+Gph562V9Ad0fbMjrh2hMMb8ma8KXdWpST+gCBA
+nHPwEXifwa3MrExCIt4iKEqp+w9/+Y8//evffX19/eff/+0/f/rzf//TH3/8
++X/+5fuTf/73//rrv/31j3/8y/df/9/f/vO/3x8AAAAAz7Vs9b45QNqnTSqF
+qlWbVApRVAp9rPPQR6XQ96qUWKGrU6Vc90KFn1pio+H6LKp0uKTP8wioFH8s
+feVJpigVfV66bpNOUSa20n2XdIoSoZEco+T0FAW2ibgWkw6STHFpX4hbMuc1
+0ikuHPvwSSabIp0iK1WHfTKHDDk9Ramzi+vGxSQaPQxApqhmmUzh5Sc6RTWr
+ZEoOpKvvpFPUMEmmvNH3d9MparQXk2o0u00yRbW2ZG49H0qnqHY/mbrFfvdz
+dIoad5O52ejrW8kUVe400/jiJzpFtdpk7i72uU0AF+qPhPd/evVDdIoq5ck0
+LvYGP4h5lTVj1mjzD2NOhVc7c5/Xj0inqFPyzFHN9xcOSaeokkvGdLE33wxm
+ctqMT6PGm8Ik0s04LPa7IekUNY7JpBZ78yHpFFXyUboURaaotmrGdbHfbZdO
+UePVjPtivxuSTlFjedl/zXlIv81jRMGN/gzhOwCGE3NCmhkSuLROJmgxplJU
++iQTdsZIpaj0fo/euEc1VIpKq2umUUNRKSoFJkOluIlKoY9KoY9KoY9KoY9K
+oY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9K
+oY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9K
+oY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9K
+oY9KoY9KoY9KoY9KoY9Koe+dTFw7VIpKnwPcElUPlaLSJ5mwTqkUldbJBGVK
+pai0TSak0x6Vhp3OwMF+mQ9Y9gPPgDdD0ulDLctx/pznMzWks2XpMCiMvOYt
+1WnwkJ56jAkj60nbz5/XfGaG9LK/m3T6JPnjp8t8xh2yN2MEn3bDzHGy3Jf9
+6yHtHUcg08dIT5Xrsn8+pF8zPcaEkfNp8lseS4c0lL+bdKotO0U+ndYMaSR7
+y7kqJe5qehyW/ZIhrZNJnZB6jwkjJZNj3OmdIVslxjx8iU5FlU6M5bJ/b8gm
+J7c3dRGDTuWUT0pyQmOHvO98QxxO5dXNiMmyXz9kezP5rdCptPrpaO+0ech6
+l3eT01Nd96aibdkPOPqmfvryx83OZmDL6qyyYjstQ95t5uaDQzpVYPkIPeAR
++91man6OTsW0TsCd9dF2yOKfaXikttBpRxY7v/a4YzOk9+MuDqcybPZ81bJv
+N2T5ZkweHNJpH3Z7vbhTvyHz32nySI1lP57tLi87PfUcsvHbTn+Wq1L9mO/v
+gsOpx5Der1Nh2e/HZV8fJzT711ZD5jZq9OCQTssty+fEaP3x5/Orn/3+4PW5
+1y3M/F2HIT0eqXF6emG9c1YfLxft/Xw9YO/6P2oq37TtIzVOT4ulK019lP4p
+/52bnD/fSU034/rgkE5zkpWeHGDzP+TnMH8hR/DEmLaDsuwXSwWXfciy/0rI
+jj3MZ8iQ+4Y8hmDZL9Fc6VfMfl1WB/qgqVz8x2TZL5OodL+fLj4P2quvKwqB
+07isxgx6pMayn9ReaZglfgpfl+cCH6mRacKDKg06IT0MGf1IjUoPlo2fL+2/
+Jf/52Lo8UvMf8lkedSztIebebjqdaweXoNILgRcUUper8a280tMzgrGF3dtP
+pnPt4BLF10szJ65DC0yHSs+UVvq6cHj8+6gLpp10SIdK90qfx98cRbePSB1v
+nQAqFZB+4Ujqo/Vn6wekbjdNA5UKSFd6NjeHo+34O5RKe1tfzN8/F5h8ZnDZ
+/2zIzeyKSp9mxr1HpU8z496j0oeZcudR6bPMue+o9FHW100nQqVP4v96YE1U
++iCzRkqleAAqhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4q
+hT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4q
+hT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4q
+hT4qhb4OdVIpKoUl8/k/ZlMpKgUls/7fulMpKsUks2qUSlEtIplNo1SKWsuu
+oIAh3AfEWJYX5yF2n/uNhuG8AvLslEbRYvuo2yee/XZpFFUCDnIs9mhyDMZ+
+2adRtEgXadspiz1anNdolymLPZpkg7GpiUbR5CoYi2WfxR4tShpszTTRKJGi
+WOlxsqUrFnu0qFjLby/7NIomdcHc65TFHi3qe2n/CRpFDZsjY90YNIoaZmeZ
+V9+b+xzIsXzEXjoGjaKG9dXPs+9hscddHs8kXY5BpKhg9CKn/GZoFC3sejnf
+Eo2ihW0v6a2lTkiJFKXMe0lskBNStHA5ph03SqPYWX7sP/58vvnM6yZkb57H
+oHiYdQaJt10KeLew0xRpFD/SlaY+crwJqRxpFG/JSk8OsI434nh6SqR4SwW5
+fwQTcjN4PhSnRCrdhEmj2EpUeryGGXRLfsfJYo89nUo/F8NoFFtKlXIcRdqy
+8fOl/bdE3py4sfAYWsdSKkUKlUIflUKfzPXSDoPhKagU+iSex+81Gh5C4DVR
+ZzcH+FH6+tIONwf4Vv5a/bhbFD0iUItKoY9KoY9KoY9KoY9KoY9KoY9KoY9K
+oY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9K
+oY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9KoY9K
+oY9KoY9KoY9KoY9KoY9KAQAAAAB4iuXH5uP3V9bf0u0mAtvLTe+Pt1mSKDpL
+VrrNlErRGZVC30ml669TKTo7q3T7CdDTaaWrx1KxtwjYy1W6fD4BOjqv9ItK
+IWLZeH/15+9WnwDdZI6lry9QKTq7qHT5olJ0l630i0qhIF/pry9RKTq7qPT7
+a1SKzq4q/eJle+iOSqHvstLPxX1yRQ/J1+ofXp6ffj0fIIpO8QR0igfgd/Xw
+BGSKJ6BTPADLPp6ATvEEdIonIFM8AIdTPAGd4gnoFA/AO0fiCcgUT7B68d/q
+axxlIYn358UD8M6n0Eel0Mf780If788Lfbw/L/Tx/rzQx/vzQh/vzwt9vD8v
+9PH+vNDH+/NCH+/PC328Py/08c6n0Eel0Jd6f15AyOn78wIAAAAAgKdZlu2f
+gB4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4q
+hT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4q
+hT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4qhT4q
+hT4qhT4qhT4qxR3LL3Gjbf8ErkVX8z3O9z8KKkWxTyxB2fwKNPTojadbtxLT
+zfIWMRoGsE0lJJyfPskUpeIrfddJpiiz78S9m02adIoS0ZXuuiRTFIit9PiQ
+iUxxLbTSZJJ0iiuRlZ70SKa4cFqpeTmZC6R0iqyzSs0vume3R6bIOr1eatvp
+xcbIFDmZq/p26RRsiU6RkXse3yidos2QKTJyr4myWPaLt0GmOJd9fWlzphUb
+4HCKjN3r6Pbnqi3tVP00maLUfoluWParf5ROUcqq0xs/RqYoto/lVjz3iiNT
+FGvu9PZRkcMpijUu+w2tkSnKNRxOGy+0kinK3e008iorcGvZt2iMTFGu/nBq
+9Goq+8Op+csRoaOyU7MULJtaPqw2CTE1y75xWzZb+dxiMh1Y4nCanG3jo1Xr
+1hLHTzIdWNmy73IuefsH0ys8mY7sulOX0767T82e3xYyHdrF6anTQ5P6p7yu
+/rWQ6dhyh1O/x88VTyUUX89tvlHQdbrsu17kKbxGW34LyHRw6WXf+0LkxaWv
+0kNo6kMMKXVVyv3gdHpJoe4QmvoQYyq9emo8ZvIfR+UvrKx+3OqWQVTQw6bD
+oJ8Bb/7LINOpbJMJG3NpKPRnG6utGd0u6Po8uo8csvnfBJlO5vc0B0620YtP
+Ph+R6QReF6HixrPdCpnO4Xuen1Ypmc4n9tGT9XbIdBaBldpviEpn8bhKyXRC
+wVf1bX71b79VDC6s0u2fJhsj02k8sFIynU7IPK9eyWq0vf2WMbSgSrd/mm2Q
+TCfxyErJdDIBk2y94G83RaYTCHkV9PZPm22S6UyeWek2U8PtQpL7HDss+L83
+l/oQYwr47bztn9bbZc2fwVMrJdOZOM+w04L/e5P7QTAq93eN2P7psW0yHd+T
+KyXTWbjO7+JZKZnOw3V+V7/877N5Mp1ETKVe2yfTOTjOru+CvxmBq/tjc630
+9afbGGQ6Cc+EvEfgetQs/Jdj5+sIh/EwHsdKX3+GXJMl06H5PQL33f57GDKd
+gNPUxiz4X2Q6B7dKX39GvYg1ZDB04vXMkOfWd0OR6fAeXymZTsD3tSAh1XB1
+f3yeL/+M/j+hUOmofCu133ZuPCodlcPExi7425GDB0QQj0pff4ZXGjweovj9
+8hyHUlhx+EVkKoU1r1+XZ8GHHa/3HuFQCjvGk8uCDw/Wlb7+ZMGHHducOJTC
+g+n0suDDh22l+w+iEOnYPCoNPy3lUIpSLPjQx4IPfSz4kMeCD30dF3wqHdey
+rNfmZdl+fmNz7w013rCbA2NQ26KaZpsFH142mTZWuv8gCpWOzr5SFnxYW9aT
+3DLdLPhws6xnua3S/QdRqHR43zP8CaxlQyz48PK70uXzye8P7uh1D6h0eL+m
+2KTSPrefSmfwe4p/Zrrpkn6nWIh0ApsH5iaP8YNR6QQ2j3lsnnuKRaUT2Fw/
+apvwLpkS6QxWD5iaX0zcI1MqncH6NVHNL3nvkCmVzmD9LH77jMdnSqUzsK00
+PFMincLm5aUGUx6cKZWOb/+skcWUUyn0hR5MiRT3RGZKpbgpMFMqxV1hmRIp
+7ovKlErRIChTKp2A4ySHZEqkE3AtKSJTKp2A7yQHZEql4/POyL0hIp2A9yS7
+H0ypdHz+K/LjD9boLebRjecYHX+5GkFCptj5KoLftiEh7LK75yVZt01DQ9wz
+7V4DseAPL26K3UYi0tHFvgTUZywqHV3oDNtluv71Fxb80T3wN+gOb+1HpKML
+/23k1vefSrz5JJUOLnyxvD/g6bujsuCPrsfb5NQPmX/7XiIdXJ/3HKsZs+D9
+pal0bH3WyuJRy94BnQV/cN3esvly3MK36O/7Lv6I0PH97zMDVwVKpsPr+f8S
+SQ9d2N3228h0ZD1nN3k9qeoQmt0YRtF3bteDly7dp99GploMT8P6zuz6brQE
+etwaejN8wNB7YuuvR5lsDe5WjxeaS+0+rSV3oPwfJZmqWBIncybb6iN/E2pX
+DYE7hK/zx8U3N9Z+g1rlTjPr7xmZKkjPws1DqsaUph+u3/23J3GXJpeZuPp5
+1Yh0fzsaHxmq3KmJXU1B7Ulc+y0ysXs82PqAUOVuTariAbHR1oJ8rq3Z/K5J
++0Zw1+HRfeYbCyZcaTKNAn1vzGpTqJW6BNVQ6sBzOfBdU3d2CSr7+vXzvx96
+Joe+c8pOdvztQ+rY80imXRQcMqtKHX0aR79/kgovQZUv/sNPIpmGK9rlhYfU
+pXiDzzb+PRRTc6G+rNQJpnCG+6ikcn8XLf7NN0rfHPdSxY29XXBIbbtNjzDH
+vdRwd19nS51j/sg0StOenvRq6RuZxmjfz8lSZ5m+We5nXzZ7ObH4zzJ7ZOrP
+cB/vQp1m8sjUm/UenrFSMnXmuX8nmrt57mkPviHNM3cT/YOM57xzJ5o6MnXj
+vWtnmjkydeK+Y6eauanu7DnrF3AE7NapJo5Mv5rei+Nse0Zbyo3hPoQQMv3N
+sNSQXTrZtJHpm02pQTt0smkj07XmUKN252yzNtv9vdRSati/+elmbbb7W+Du
+4h+3ME1XKZJulBp59jRppu8pWY5fSn5v0RefrS7U0Ls/2q4u8nOn13Py+uDs
+3WOuvzKE4lJj/40Ourez1q9dPMR5dji9+MI4ihb/4Ps/8O4+s77H76Nq+q8/
+X5un0m9XpYbf/bF3d0Lil2q2+yCxR5b9t0yw2zKhxv8bHX937+x7O36JSl/S
+pXZYSObY3R+7+7scv5R6rLQ7KVh9OuCD/Y3j4t/l/g69j49SR8qGSn+OxWPv
+w02pfe7s4Ht4726l68sAn8+y16+GsizHo2ro8D1G7cap0il2Ysezmzl28Nvt
+SveL/O//dj3AdECmIYwrNb51+qg0Qnml6+dPV1/ffDzVrvvl82xd7H2fbFdf
+Zrp+ln99+KTSb4knlYPGDR2ut8sLpqsAX1Oymphl+03bo+0MOlU6dabL4Uub
+MC8q/Zq6Ug6mntbPoxy+lF7935/ufuB9qdvjdmra74LwcWeRWLRO1rGrSnOv
+yRgUJ6ZhEmkla1vef7E9D9g8YTjZ/uPEVAz7JYETUzHslwROTLWwW1J6nZgy
+HUnslTROTIVsH97jjRNTHfNdYyrFtSgZRHqOJR/6WPKhj2tR0MeJKR6AE1Po
+48QU+jgxhT6eJMUDcGIKfZyYQh/XovAAnJhCH0s+9HEtCvo4McUDcGIKfcEn
+pifv6gHkxJ6YHt+uA7gWemK6OmBTKSoEVrqJlEpRLu7ElEhxV9iZIpHitqgT
+UyJFg5gln0jRImTJJ1I0iVjyiRSN/CslUrRyPzElUjTzPjElUrRzPjElUlhw
+rZRIYcLzxJRIYcPxxJRIYcTvxJRIYcZrySdS2HFa8okUhnyWfCKFKY9KiRS2
+HE5MiRTG7E9MiRTWzE9MiRT2jCslUjjgEhT0cQkK+ixrIlI44RIU9HEJCvq4
+BAV9yy8Wm0l8CJhY3hq3kvgQMPGTVGOpRApH66Tuh0qkcLRP6t4hlUjhKJlU
+dalECkenSVWFSqRwlE+qtFQihaOiAC9LJVI4Kl/PC1d/IoW1ukdHBaESKazd
+uNiUL5VIYe3utfvTUokU1lqeCU2GSqSw1vzCkn2pRApr7UntXkdFpLBm9zvN
+Ni/6Aw5sfxuPSOHAOikihTmSgjwihTwihTwihTwihTwihTwihTwihTwihTwi
+hTwihTwihTwihTwihTwihTwihTwihTwihTwihTwihTwihTwihTwihTwihTwi
+hTwihTwihTwihTwiBdDR/wNbtCrr
+                "], {{0, 715}, {678, 0}}, {0, 1},
+                
+                ColorFunction->GrayLevel],
+               BoxForm`ImageTag[
+               "Bit", ColorSpace -> Automatic, Interleaving -> None, 
+                MetaInformation -> 
+                Association[
+                 "Exif" -> Association[
+                   "ImageWidth" -> 678, "ImageLength" -> 715, "BitsPerSample" -> 
+                    1, "PhotometricInterpretation" -> "White Is Zero", 
+                    "ImageDescription" -> "**ART;ITEM01251;*", 
+                    "StripOffsets" -> {2480, 2713, 3182, 3430, 3565, 3892, 
+                    4230, 4587}, "Orientation" -> 
+                    Association[
+                    "CameraTopOrientation" -> Top, "Mirrored" -> False], 
+                    "SamplesPerPixel" -> 1, "RowsPerStrip" -> 96, 
+                    "StripByteCounts" -> {233, 469, 248, 135, 327, 338, 357, 
+                    81}, "XResolution" -> 300, "YResolution" -> 300, 
+                    "PlanarConfiguration" -> 1, "ResolutionUnit" -> "inch"]]],
+               
+               Selectable->False],
+              DefaultBaseStyle->"ImageGraphics",
+              ImageSize->{66.41284722222204, Automatic},
+              ImageSizeRaw->{678, 715},
+              PlotRange->{{0, 678}, {0, 715}}]}], "}"}], 
+           ",", "\<\"Description\"\>"}], "]"}],
+         Short[#, 5]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          PaneBox[
+           TagBox[
+            TooltipBox[
+             StyleBox[
+              StyleBox[
+               DynamicBox[ToBoxes[
+                 FEPrivate`FrontEndResource[
+                 "FEStrings", "sizeBriefExplanation"], StandardForm],
+                ImageSizeCache->{85., {3., 11.}}],
+               StripOnInput->False,
+               DynamicUpdating->True,
+               LineSpacing->{1, 2},
+               LineIndent->0,
+               LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLText",
+              StripOnInput->False],
+             StyleBox[
+              DynamicBox[
+               ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+                StandardForm]], DynamicUpdating -> True, LineIndent -> 0, 
+              LinebreakAdjustments -> {1., 100, 0, 0, 0}, 
+              LineSpacing -> {1, 2}, StripOnInput -> False]],
+            Annotation[#, 
+             Style[
+              Dynamic[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+              DynamicUpdating -> True, LineIndent -> 0, 
+              LinebreakAdjustments -> {1., 100, 0, 0, 0}, 
+              LineSpacing -> {1, 2}], "Tooltip"]& ],
+           Alignment->Center,
+           BaselinePosition->Baseline,
+           ImageSize->{Automatic, {25, Full}}], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{74., {1., 11.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 318, 26196891953532182111, 5/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{83., {1., 11.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 318, 26196891953532182111, 5 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{62., {1., 11.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            OutputSizeLimit`Defer, 318, 26196891953532182111, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{111., {1., 12.}}],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True,
+              LineSpacing->{1, 2},
+              LineIndent->0,
+              LinebreakAdjustments->{1., 100, 0, 0, 0}], "OSLControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, {25, Full}}],
+           Appearance->None,
+           BaselinePosition->Baseline,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Advanced"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+     GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{1.}}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}}],
+    BaseStyle->"OutputSizeLimit",
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  If[26196891953532182111 === $SessionID, 
+   Out[318], Message[
+     MessageName[Syntax, "noinfoker"]]; Missing["NotAvailable"]; 
+   Null]]], "Output",
+ CellChangeTimes->{{3.771621142129737*^9, 3.7716211577946453`*^9}, {
+  3.7716923819418917`*^9, 3.771692408270409*^9}},
+ CellLabel->
+  "Out[318]=",ExpressionUUID->"e64ef2aa-a175-4e06-9c22-2fd20c98eb56"]
 }, Open  ]],
 
 Cell[BoxData[
@@ -23068,8 +26507,8 @@ T+4BYHpyDwDTk3sAmJ7cA8D05B4Apif3ADA9uQeA6ck9AExP7gFgenIPAAAw
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1143, 1005},
-WindowMargins->{{Automatic, 54}, {Automatic, 0}},
+WindowSize->{1115, 1005},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
 FrontEndVersion->"12.0 for Mac OS X x86 (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb"
 ]
@@ -23086,86 +26525,93 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 150, 3, 103, "Chapter",ExpressionUUID->"0b8ad430-223a-4a3c-bfa4-4fb10cd46474"],
-Cell[733, 27, 305, 8, 46, "Input",ExpressionUUID->"bce2dabc-52bd-4305-a1bf-6a2629be59ba"],
-Cell[1041, 37, 192, 4, 46, "Input",ExpressionUUID->"b8f926bc-0d74-4042-b0d0-c3434f6eec51"],
 Cell[CellGroupData[{
-Cell[1258, 45, 173, 3, 101, "Section",ExpressionUUID->"3e36b173-3e1d-45c1-8e42-93a9dd1f7d5a"],
-Cell[CellGroupData[{
-Cell[1456, 52, 154, 3, 81, "Subsection",ExpressionUUID->"33cfd51f-8f49-4fc3-a0d6-48f629d5a6d0"],
-Cell[CellGroupData[{
-Cell[1635, 59, 1091, 26, 171, "Input",ExpressionUUID->"8653d7ea-2106-4847-9051-7fe579e20606"],
-Cell[2729, 87, 10759, 183, 595, "Output",ExpressionUUID->"f08ff44a-2c29-47f2-a6d9-b307a2ab9752"]
+Cell[755, 29, 458, 12, 109, "Input",ExpressionUUID->"bce2dabc-52bd-4305-a1bf-6a2629be59ba"],
+Cell[1216, 43, 49429, 1027, 859, "Output",ExpressionUUID->"6e17512f-a678-4763-9dfd-dcd2828f48cb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[13525, 275, 258, 5, 46, "Input",ExpressionUUID->"f80e658d-2573-49d2-80cc-7e7473430a43"],
-Cell[13786, 282, 100847, 1910, 1157, "Output",ExpressionUUID->"9ac0b665-9269-4288-98c3-633826829a48"]
+Cell[50682, 1075, 337, 7, 46, "Input",ExpressionUUID->"a4549ee9-aace-4c7d-8678-4236c4dec30e"],
+Cell[51022, 1084, 49538, 1028, 859, "Output",ExpressionUUID->"1bd009aa-11a4-4380-99e7-b8d037817e13"]
+}, Open  ]],
+Cell[100575, 2115, 192, 4, 46, "Input",ExpressionUUID->"b8f926bc-0d74-4042-b0d0-c3434f6eec51"],
+Cell[CellGroupData[{
+Cell[100792, 2123, 173, 3, 101, "Section",ExpressionUUID->"3e36b173-3e1d-45c1-8e42-93a9dd1f7d5a"],
+Cell[CellGroupData[{
+Cell[100990, 2130, 154, 3, 81, "Subsection",ExpressionUUID->"33cfd51f-8f49-4fc3-a0d6-48f629d5a6d0"],
+Cell[CellGroupData[{
+Cell[101169, 2137, 1142, 27, 171, "Input",ExpressionUUID->"8653d7ea-2106-4847-9051-7fe579e20606"],
+Cell[102314, 2166, 10812, 185, 595, "Output",ExpressionUUID->"8ac6c6b4-2e57-412c-aadb-3df40c92a0eb"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[114670, 2197, 184, 3, 46, "Input",ExpressionUUID->"7d52d108-de91-45a7-8844-ef2d0bc50048"],
-Cell[114857, 2202, 317, 8, 52, "Output",ExpressionUUID->"a45891fe-b98a-4679-8dfb-c5f89eed3840"]
+Cell[113163, 2356, 258, 5, 46, "Input",ExpressionUUID->"f80e658d-2573-49d2-80cc-7e7473430a43"],
+Cell[113424, 2363, 100847, 1910, 1157, "Output",ExpressionUUID->"9ac0b665-9269-4288-98c3-633826829a48"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[115211, 2215, 510, 10, 46, "Input",ExpressionUUID->"63f6567e-4e4a-4c1f-9b87-07e26c27c81f"],
-Cell[115724, 2227, 516, 11, 34, "Message",ExpressionUUID->"d070f42b-cc7b-4382-8069-2f5877b04387"],
-Cell[116243, 2240, 319, 8, 52, "Output",ExpressionUUID->"f0062dff-58a7-471e-9965-30ccf7c8b800"]
+Cell[214308, 4278, 184, 3, 46, "Input",ExpressionUUID->"7d52d108-de91-45a7-8844-ef2d0bc50048"],
+Cell[214495, 4283, 317, 8, 52, "Output",ExpressionUUID->"a45891fe-b98a-4679-8dfb-c5f89eed3840"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[116599, 2253, 817, 21, 109, "Input",ExpressionUUID->"6e9f716c-7dbd-45b5-9e72-e4f36877aaf9"],
-Cell[117419, 2276, 108289, 2074, 1157, "Output",ExpressionUUID->"91201145-5b70-4a85-bb90-bc40b1cc7d48"]
+Cell[214849, 4296, 591, 12, 46, "Input",ExpressionUUID->"63f6567e-4e4a-4c1f-9b87-07e26c27c81f"],
+Cell[215443, 4310, 49472, 1027, 859, "Output",ExpressionUUID->"286f729d-a27d-4cd3-bcaf-faebf7be7310"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[264952, 5342, 817, 21, 109, "Input",ExpressionUUID->"6e9f716c-7dbd-45b5-9e72-e4f36877aaf9"],
+Cell[265772, 5365, 108289, 2074, 1157, "Output",ExpressionUUID->"91201145-5b70-4a85-bb90-bc40b1cc7d48"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[225757, 4356, 183, 2, 81, "Subsection",ExpressionUUID->"1308c6d9-4006-4927-808b-d98e075dfb65"],
-Cell[225943, 4360, 368, 9, 46, "Input",ExpressionUUID->"29350ae3-43bb-4a11-86a3-3fffba553494"],
+Cell[374110, 7445, 183, 2, 81, "Subsection",ExpressionUUID->"1308c6d9-4006-4927-808b-d98e075dfb65"],
+Cell[374296, 7449, 368, 9, 46, "Input",ExpressionUUID->"29350ae3-43bb-4a11-86a3-3fffba553494"],
 Cell[CellGroupData[{
-Cell[226336, 4373, 309, 6, 46, "Input",ExpressionUUID->"e1784616-8be9-4b68-9ec3-0094bd7582d7"],
-Cell[226648, 4381, 10777, 182, 209, "Output",ExpressionUUID->"cb747e16-61c2-4624-b833-9cb4cc68d3dc"]
+Cell[374689, 7462, 309, 6, 46, "Input",ExpressionUUID->"e1784616-8be9-4b68-9ec3-0094bd7582d7"],
+Cell[375001, 7470, 10777, 182, 209, "Output",ExpressionUUID->"cb747e16-61c2-4624-b833-9cb4cc68d3dc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[237462, 4568, 844, 18, 140, "Input",ExpressionUUID->"fda1b73a-22fb-4b36-83a0-f751cee2e97a"],
-Cell[238309, 4588, 49449, 1027, 859, "Output",ExpressionUUID->"725a534a-6360-4f10-a8df-1fc1b90675e0"]
+Cell[385815, 7657, 844, 18, 140, "Input",ExpressionUUID->"fda1b73a-22fb-4b36-83a0-f751cee2e97a"],
+Cell[386662, 7677, 49449, 1027, 859, "Output",ExpressionUUID->"725a534a-6360-4f10-a8df-1fc1b90675e0"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[287795, 5620, 461, 12, 46, "Input",ExpressionUUID->"d40f592f-bbd8-45f5-9055-ab9149c10deb"],
-Cell[288259, 5634, 2875, 44, 549, "Output",ExpressionUUID->"0a2e2b86-a8c5-4ee2-b862-1e6ffae803b8"]
+Cell[436148, 8709, 514, 13, 78, "Input",ExpressionUUID->"d40f592f-bbd8-45f5-9055-ab9149c10deb"],
+Cell[436665, 8724, 386, 9, 34, "Message",ExpressionUUID->"2cecdd90-c2c8-48a2-b955-b32b1369cc5d"],
+Cell[437054, 8735, 17731, 382, 209, "Output",ExpressionUUID->"e64ef2aa-a175-4e06-9c22-2fd20c98eb56"]
 }, Open  ]],
-Cell[291149, 5681, 494, 13, 46, "Input",ExpressionUUID->"2c6211b2-e2d1-49bd-a6ff-8c7095d8fbfa"],
+Cell[454800, 9120, 494, 13, 78, "Input",ExpressionUUID->"2c6211b2-e2d1-49bd-a6ff-8c7095d8fbfa"],
 Cell[CellGroupData[{
-Cell[291668, 5698, 217, 4, 46, "Input",ExpressionUUID->"a83101d2-9a3d-4e23-b1bc-6dd9073c50c5"],
-Cell[291888, 5704, 162, 3, 52, "Output",ExpressionUUID->"39be4565-1a9d-420c-a308-a59fb92f7e23"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[292087, 5712, 325, 8, 46, "Input",ExpressionUUID->"6bfe0da4-7c38-4aa3-b404-42097a4e7288"],
-Cell[292415, 5722, 77528, 1586, 869, "Output",ExpressionUUID->"05b884a1-6fe0-44e3-bc48-39575766f604"]
+Cell[455319, 9137, 217, 4, 46, "Input",ExpressionUUID->"a83101d2-9a3d-4e23-b1bc-6dd9073c50c5"],
+Cell[455539, 9143, 162, 3, 52, "Output",ExpressionUUID->"39be4565-1a9d-420c-a308-a59fb92f7e23"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[369980, 7313, 324, 6, 46, "Input",ExpressionUUID->"a7b52562-201e-4fcd-aafe-b680416da672"],
-Cell[370307, 7321, 670481, 13242, 1320, "Output",ExpressionUUID->"9c21e6c1-28a1-4247-b966-56ea2aee0612"]
+Cell[455738, 9151, 325, 8, 46, "Input",ExpressionUUID->"6bfe0da4-7c38-4aa3-b404-42097a4e7288"],
+Cell[456066, 9161, 77528, 1586, 869, "Output",ExpressionUUID->"05b884a1-6fe0-44e3-bc48-39575766f604"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1040825, 20568, 412, 10, 46, "Input",ExpressionUUID->"b6de824a-e679-4260-9797-30222907a52c"],
-Cell[1041240, 20580, 185, 3, 52, "Output",ExpressionUUID->"9c61cc71-d655-473b-bc65-57ab009440bc"]
+Cell[533631, 10752, 324, 6, 46, "Input",ExpressionUUID->"a7b52562-201e-4fcd-aafe-b680416da672"],
+Cell[533958, 10760, 670481, 13242, 1320, "Output",ExpressionUUID->"9c21e6c1-28a1-4247-b966-56ea2aee0612"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1041462, 20588, 479, 12, 46, "Input",ExpressionUUID->"0937447c-e6df-453f-9487-2d7f2c653ebe"],
-Cell[1041944, 20602, 1915, 40, 132, "Output",ExpressionUUID->"1ba60f22-d03f-42ad-bfe6-782792269eda"]
+Cell[1204476, 24007, 412, 10, 46, "Input",ExpressionUUID->"b6de824a-e679-4260-9797-30222907a52c"],
+Cell[1204891, 24019, 185, 3, 52, "Output",ExpressionUUID->"9c61cc71-d655-473b-bc65-57ab009440bc"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1043896, 20647, 352, 9, 46, "Input",ExpressionUUID->"0b0a7ec7-831b-456b-86ac-0b7fdb045998"],
-Cell[1044251, 20658, 107972, 2071, 1169, "Output",ExpressionUUID->"2976dbd4-6788-4b04-9d74-2ba5e88c88de"]
+Cell[1205113, 24027, 479, 12, 46, "Input",ExpressionUUID->"0937447c-e6df-453f-9487-2d7f2c653ebe"],
+Cell[1205595, 24041, 1915, 40, 132, "Output",ExpressionUUID->"1ba60f22-d03f-42ad-bfe6-782792269eda"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1152260, 22734, 286, 7, 46, "Input",ExpressionUUID->"869075b9-363d-4120-b7c0-cadbf3f66853"],
-Cell[1152549, 22743, 1468, 32, 355, "Output",ExpressionUUID->"71a2537b-b1c6-49fe-aa43-fe63dec4d5d2"]
+Cell[1207547, 24086, 352, 9, 46, "Input",ExpressionUUID->"0b0a7ec7-831b-456b-86ac-0b7fdb045998"],
+Cell[1207902, 24097, 107972, 2071, 1169, "Output",ExpressionUUID->"2976dbd4-6788-4b04-9d74-2ba5e88c88de"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1154054, 22780, 690, 17, 109, "Input",ExpressionUUID->"12d4f10c-aba7-4b5f-aa52-a538ee39e902"],
-Cell[1154747, 22799, 1041, 31, 101, "Output",ExpressionUUID->"9bec7f22-6a3d-4a27-8d4b-763e31f9bdc7"]
+Cell[1315911, 26173, 286, 7, 46, "Input",ExpressionUUID->"869075b9-363d-4120-b7c0-cadbf3f66853"],
+Cell[1316200, 26182, 1468, 32, 355, "Output",ExpressionUUID->"71a2537b-b1c6-49fe-aa43-fe63dec4d5d2"]
 }, Open  ]],
-Cell[1155803, 22833, 203, 4, 46, "Input",ExpressionUUID->"2e7b8fdb-3829-4a41-95c6-eebd1403d176"],
 Cell[CellGroupData[{
-Cell[1156031, 22841, 358, 8, 46, "Input",ExpressionUUID->"e0bc2706-79e9-4b79-8f9b-0f4caed53c39"],
-Cell[1156392, 22851, 12049, 213, 622, "Output",ExpressionUUID->"7c85f060-9d19-448d-9863-f6e354d5377a"]
+Cell[1317705, 26219, 690, 17, 109, "Input",ExpressionUUID->"12d4f10c-aba7-4b5f-aa52-a538ee39e902"],
+Cell[1318398, 26238, 1041, 31, 101, "Output",ExpressionUUID->"9bec7f22-6a3d-4a27-8d4b-763e31f9bdc7"]
+}, Open  ]],
+Cell[1319454, 26272, 203, 4, 46, "Input",ExpressionUUID->"2e7b8fdb-3829-4a41-95c6-eebd1403d176"],
+Cell[CellGroupData[{
+Cell[1319682, 26280, 358, 8, 46, "Input",ExpressionUUID->"e0bc2706-79e9-4b79-8f9b-0f4caed53c39"],
+Cell[1320043, 26290, 12049, 213, 622, "Output",ExpressionUUID->"7c85f060-9d19-448d-9863-f6e354d5377a"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

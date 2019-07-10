@@ -1,7 +1,63 @@
 * Lightning Talk
-** Problem: how do you digitize
+** Problem: how do you digitize and search the chemistry literature and patents
+*** example image
 ** Project: towards implementation in Wolfram Language
 ** Visual
+building up the processing steps in layers
 * Community Post
+** Title
+[WSS19] Towards implementing chemical structure recognition in the Wolfram Language
+** Header image
+Flow chart clearly conveying the problem and result so far
+** Abstract
+Efficiently finding information in archives of chemistry manuscripts or patents requires the ability to recognize the printed diagrams of chemical structures.
+
+Here, I begin the implementation of such a code in the Wolfram Language.
+** Problem Definition
+
+There are several considerations
+
+** Approach
+
+*** Graph Representation
+I obtain the graph representation of the molecule with the following:
+- detect lines
+- group parallel and nearby lines
+- merge intersecting lines
+- find atom positions
+- build graph edge list
+
+*** Chemical Representation
+The Wolfram Language has the function Molecule to find a molecule given a list of atoms and list of bonds.
+[code]
+
+The edge list is easily converted into a bond list:
+[code]
+
+
+
+** Next Steps
+To associate the correct atoms with the locations of the vertices, I plan to use MorphologicalComponents to extract features of the image.
+
+[image of the resulting broken up data with text recognize]
+
+Image components containing at least one full line would be discarded, and TextRecognize would be applied to the remaining fragments.
+
+The locations of these would have to be associated with nearby vertices to tag
+
+** What I learned?
+Unfortunately, I only learned about MorphologicalComponents on the second to last day.
+
+
+** Drafts text
+My project focused on 
+
+
+
+
+I used data from the OSRA project.
+
+USE IMAGES FROM PROJECT NOTEBOOK
+
 
 * Poster
