@@ -36,7 +36,7 @@ ChemicalRead::usage="ChemicalRead is a package for scanning chemical structures.
 
 listPointsSlope::usage="";
 lineSlope::usage="";
-lineDistance::usage="";
+lineDistance::usage="";\[AliasDelimiter]
 doLineDetect::usage="";
 pickLongLines::usage="";
 doLongLineDetect::usage="";
